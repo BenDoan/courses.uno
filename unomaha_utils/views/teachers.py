@@ -26,5 +26,4 @@ def teacher_search_view():
     if not matching_courses:
         abort(404)
 
-
     return render_template("teacher_view.html", matching_courses=matching_courses)

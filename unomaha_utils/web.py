@@ -11,8 +11,7 @@ from views.classes import classes
 from views.rooms import rooms
 from views.teachers import teachers
 
-from util import courses_meta
-
+from util import courses_meta, term_key_to_name, term_name_to_key
 from utils.course_history.search import get_term, get_term_from_date
 
 app = Flask(__name__)
@@ -34,7 +33,9 @@ def create_app():
     def inject_user():
         return {
             "courses_meta": courses_meta,
-            "last_updated": datetime.datetime.fromtimestamp(courses_meta['time']).strftime("%Y-%m-%d")
+            "last_updated": datetime.datetime.fromtimestamp(courses_meta['time']).strftime("%Y-%m-%d"),
+            "term_key_to_name": term_key_to_name,
+            "term_name_to_key": term_name_to_key
         }
 
     @app.errorhandler(404)

@@ -3,10 +3,17 @@
 <div class="alert alert-info">Search for the schedule for a specific room this term</div>
 <form action="/rooms/view" method="GET">
     <div class="form-group">
+        <label for="term">Terms</label>
+        <select id="term" name="term" class="form-control">
+            {% for term_key, term_name in  term_key_to_name|dictsort|reverse %}
+            <option value="{{ term_key }}">{{ term_name }}</option>
+            {% endfor %}
+        </select>
+
         <label for="building">Building</label>
         <select id="building" name="building" class="form-control">
             {% for building in buildings %}
-            <option>{{ building }}</option>
+            <option value="{{ building }}">{{ building }}</option>
             {% endfor %}
         </select>
     </div>
