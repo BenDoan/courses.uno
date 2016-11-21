@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Courses</h2>
+{% for ckey, course in courses|dictsort %}
+<div class="well">
+    <h4>
+        {{ course['title'] }}
+        ({{ college_name }}{{ ckey }})
+        <small><a href="{{ url_for('classes.course_history') }}?college={{ college_name }}&course={{ ckey }}">history</a></small>
+    </h4>
+    <p>{{ course['desc'] }}</p>
+    <p>{{ course['prereq'] }}</p>
+    {% for section, section_info in course['sections'].items()[::-1] %}
+    <h4>{{ section }}</h4>
+    <table class="table table-bordered table-condensed table-striped">
+        {% for key, val in section_info|dictsort %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ val }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endfor %}
+</div>
+{% endfor %}
+{% endblock %}

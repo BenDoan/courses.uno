@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>{{ course_instances[-1]['title'] }} ({{ college_key }}{{ course_key }})</h3>
+{% for course in course_instances|reverse %}
+    <h4>{{ get_term(course) }}</h4>
+    <ul class="list-group">
+    {% for section_number, section in course['sections']|dictsort %}
+        <li class="list-group-item">{{ section_number }} - {{ section['Instructor'] }} ({{ section['Enrolled'] }}/{{ section['Class Max'] }})</li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+{% endblock %}

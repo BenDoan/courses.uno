@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="alert alert-info">Search for the schedule for a specific room this term</div>
+<form action="/rooms/view" method="GET">
+    <div class="form-group">
+        <label for="building">Building</label>
+        <select id="building" name="building" class="form-control">
+            {% for building in buildings %}
+            <option>{{ building }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="room_number">Room Number</label>
+        <input type="text" name="room_number" id="room_number" />
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+{% endblock %}

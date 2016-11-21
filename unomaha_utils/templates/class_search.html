@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/classes/view" method="GET">
+    <div class="form-group">
+        <label for="college">Colleges</label>
+        <select id="college" name="college" class="form-control" data-live-search="true">
+            {% for college_key in college_keys %}
+            <option>{{ college_key }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+{% endblock %}

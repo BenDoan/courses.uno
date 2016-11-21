@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+{% for college, courses in matching_courses|dictsort %}
+    <h2>{{ college }}</h2>
+    {% for course, terms in courses|dictsort %}
+        <h4>
+            {{ course }}
+            <small><a href="{{ url_for('classes.course_history') }}?college={{ college }}&course={{ course }}">history</a></small>
+        </h4>
+        <table class="table table-striped table-bordered table-condensed">
+            <tr>
+                <th>Term</th>
+                <th>Teacher</th>
+                <th>Title</th>
+                <th>Enrolled</th>
+            </tr>
+        {% for term, sections in terms|dictsort|reverse %}
+            {% for section, info in sections|dictsort %}
+            <tr>
+                <td>{{ get_term_from_date(info['section_info']['Date']) }}</td>
+                <td>{{ info['section_info']['Instructor'] }}</td>
+                <td>{{ info['course_title'] }}</td>
+                <td>{{ info['section_info']['Enrolled'] }}/{{ info['section_info']['Class Max'] }}</td>
+            </tr>
+            {% endfor %}
+        {% endfor %}
+        </table>
+    {% endfor %}
+    <!--<hr>-->
+{% endfor %}
+{% endblock %}

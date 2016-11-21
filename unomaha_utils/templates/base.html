@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Ben Doan">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Unomaha Utilities</title>
+
+        <!--<script src="{{ url_for('main.send_static', path='dist/main.min.js') }}"></script>-->
+        <link href="{{ url_for('main.send_static', path='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('main.send_static', path='css/main.css') }}" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Unomaha Utilities</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li {% if request.url_rule.endpoint == 'main.index' %}class="active"{% endif %}>
+                            <a href="{{ url_for('main.index') }}">Home</a>
+                        </li>
+
+                        <li {% if request.path.startswith('/classes') %}class="active"{% endif %}>
+                            <a href="{{ url_for('classes.course_search_search') }}">Course Search</a>
+                        </li>
+
+                        <li {% if request.path.startswith('/rooms') %}class="active"{% endif %}>
+                            <a href="{{ url_for('rooms.room_search_search') }}">Room Search</a>
+                        </li>
+
+                        <li {% if request.path.startswith('/teachers') %}class="active"{% endif %}>
+                            <a href="{{ url_for('teachers.teacher_search_search') }}">Teacher Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="content">
+        {% block content %}
+            <p>content should be here</p>
+        {% endblock %}
+        </div>
+        <div class="container" id="footer">
+            <footer>
+                <span>&copy; 2016 <a href="http://www.bendoan.me">Ben Doan</a></span>
+                <span class="pull-right">
+                    data last updated: <span title="{{ courses_meta['time_str'] }}">{{ last_updated }}</span> |
+                    <a href="http://github.com/bendoan/unomaha-utils">source code</a> |
+                    <a href="mailto:feedback@flainted.com">feedback@flainted.com</a>
+                </span>
+            </footer>
+        </div>
+    </body>
+</html>

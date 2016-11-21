@@ -1,0 +1,36 @@
+/* colors:
+ * #E6E2AF
+ * #A7A37E
+ * #EFECCA
+ * #046380
+ * #002F2F
+ */
+
+body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-image: url("/static/img/footer_lodyas.png");
+    background-repeat: repeat;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.container {
+}
+
+#content {
+    background-color:#fff;
+    border-radius:3px;
+    padding:10px;
+}
+
+#footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#fff
+}
+
+#footer a {
+    color: #EFECCA;
+}

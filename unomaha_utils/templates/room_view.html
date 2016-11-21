@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ building_room }} Schedule</h2>
+{% for day, hours in rooms|dictsort(by='key') %}
+    <h3>{{ day }}</h3>
+    <ul class="list-group">
+        {% for tr in hours|sort %}
+        <li class="list-group-item">{{ tr }} | {{ hours[tr][0] }} | {{ hours[tr][1] }}</li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1>Welcome!</h1>
+    <p>This site is a general collection of utilities I've made during my time at UNO. Most of the underlying data comes from the UNOmaha <a href="http://www.unomaha.edu/class-search/">course search</a>. If you have any questions or feedback, send me an email at <a href="mailto:feedback@flainted.com">feedback@flainted.com</a> </p>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Courses</h2>
+        <p>Find information about specific courses</p>
+        <p><a class="btn btn-default" href="{{ url_for('classes.course_search_search') }}" role="button">Search &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Rooms</h2>
+        <p>Find schedules for specific rooms at UNO</p>
+        <p><a class="btn btn-default" href="{{ url_for('rooms.room_search_search') }}" role="button">Search &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Teachers</h2>
+        <p>Find the course history for a specific teacher</p>
+        <p><a class="btn btn-default" href="{{ url_for('teachers.teacher_search_search') }}" role="button">Search &raquo;</a></p>
+    </div>
+</div>
+{% endblock %}
