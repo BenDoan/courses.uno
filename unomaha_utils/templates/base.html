@@ -11,6 +11,9 @@
         <title>Unomaha Utilities</title>
 
         <!--<script src="{{ url_for('main.send_static', path='dist/main.min.js') }}"></script>-->
+        <script src="{{ url_for('main.send_static', path='js/jquery-3.1.1.min.js') }}"></script>
+        <script src="{{ url_for('main.send_static', path='js/bootstrap.min.js') }}"></script>
+
         <link href="{{ url_for('main.send_static', path='css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ url_for('main.send_static', path='css/main.css') }}" rel="stylesheet">
     </head>
@@ -59,7 +62,7 @@
                 <span>&copy; 2016 <a href="http://www.bendoan.me">Ben Doan</a></span>
                 <span class="pull-right">
                     data last updated: <span title="{{ courses_meta['time_str'] }}">{{ last_updated }}</span> |
-                    <a href="http://github.com/bendoan/unomaha-utils">source code</a> |
+                    <a href="http://github.com/bendoan/unomaha_utils">source code</a> |
                     <a href="mailto:feedback@flainted.com">feedback@flainted.com</a>
                 </span>
             </footer>
