@@ -1,9 +1,9 @@
 /* colors:
- * #E6E2AF
- * #A7A37E
- * #EFECCA
- * #046380
- * #002F2F
+ * #1A212C
+ * #1D7872
+ * #71B095
+ * #DEDBA7
+ * #D13F32
  */
 
 body {
@@ -29,5 +29,19 @@ body {
 }
 
 #footer a {
-    color: #EFECCA;
+    color:#DEDBA7;
+}
+
+.jumbotron {
+    background-color:#1A212C;
+    color: #fff;
+}
+
+.jumbotron a {
+    color:#DEDBA7;
+}
+
+.alert-inf {
+    background-color:#DEDBA7;
+    color:#002F2F;
 }

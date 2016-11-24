@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>Courses for {{ term_key_to_name[term_key] }}</h2>
+<h2><strong>{{ college_name }}</strong> courses for <strong>{{ term_key_to_name[term_key] }}</strong></h2>
 {% for ckey, course in courses|dictsort %}
 <div class="well">
     <h4>

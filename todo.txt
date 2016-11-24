@@ -1,0 +1,8 @@
+- improve general visuals
+- make better way for updating and managing course data
+- better analytics
+- improve layout of courses
+- use Mitchell's method for segmenting teacher names
+- organize course section attrs
+- less generic nav
+- improved schedule display

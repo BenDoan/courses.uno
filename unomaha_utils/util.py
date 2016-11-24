@@ -2,13 +2,24 @@ import json
 
 from collections import OrderedDict
 from os import path
+import sys
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 SCRIPT_PATH = path.dirname(path.realpath(__file__))
+TERM_DATA_PATH = path.join(SCRIPT_PATH, "static", "all_courses.json")
 
 def get_courses():
-    print "Loading course data"
-    with open(path.join(SCRIPT_PATH, "all_courses.json")) as f:
-        return json.load(f, object_pairs_hook=OrderedDict)
+    if not path.exists(TERM_DATA_PATH):
+        print "Couldn't find course data at {}".format(TERM_DATA_PATH)
+        sys.exit(1)
+
+    logging.info("Loading course data...")
+    with open(TERM_DATA_PATH) as f:
+        term_data = json.load(f, object_pairs_hook=OrderedDict)
+    logging.info("Course data loaded")
+    return term_data
 courses_dict = get_courses()
 courses_meta = courses_dict['meta']
 term_data = courses_dict['term_data']
@@ -32,7 +43,7 @@ def get_term_from_date(date):
     year = date.split("-")[0].split(",")[-1].strip()
 
     if term == "Unknown":
-        print("Unknown term,  date is:", date)
+        logging.warn("Unknown term,  date is: %s", date)
 
     return "{} {}".format(term, year), term != "Unknown"
 

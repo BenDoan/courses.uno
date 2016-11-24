@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>{{ building_room }} Schedule for {{ term_key_to_name[term_key] }}</h2>
+<h2><strong>{{ building_room }}</strong> Schedule for <strong>{{ term_key_to_name[term_key] }}</strong></h2>
 {% for day, hours in rooms|dictsort(by='key') %}
     <h3>{{ day }}</h3>
     <ul class="list-group">

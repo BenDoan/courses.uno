@@ -14,6 +14,9 @@ from views.teachers import teachers
 from util import courses_meta, term_key_to_name, term_name_to_key
 from utils.course_history.search import get_term, get_term_from_date
 
+wlog = logging.getLogger('werkzeug')
+wlog.setLevel(logging.ERROR)
+
 app = Flask(__name__)
 
 def create_app():

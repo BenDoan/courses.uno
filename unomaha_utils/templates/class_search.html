@@ -2,14 +2,14 @@
 {% block content %}
 <form action="/classes/view" method="GET">
     <div class="form-group">
-        <label for="term">Terms</label>
+        <label for="term">Term</label>
         <select id="term" name="term" class="form-control">
             {% for term_key, term_name in  term_key_to_name|dictsort|reverse %}
             <option value="{{ term_key }}">{{ term_name }}</option>
             {% endfor %}
         </select>
 
-        <label for="college">Colleges</label>
+        <label for="college">College</label>
         <select id="college" name="college" class="form-control">
             {% for college_key in college_keys %}
             <option value="{{ college_key }}">{{ college_key }}</option>
