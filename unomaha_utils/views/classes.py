@@ -1,7 +1,7 @@
 import json
 
 from flask import Blueprint, request, abort, render_template, redirect, url_for, current_app
-from util import term_data, get_term_mapping
+from util import term_data, term_key_to_name
 
 from utils.course_history.search import get_course_instances, get_term
 
@@ -20,14 +20,13 @@ def hello():
 
 @classes.route('/search')
 def course_search_search():
-    get_term_mapping(term_data)
     return render_template("class_search.html", college_keys=college_keys, course_keys=course_keys)
 
 @classes.route('/view')
 def course_search_view():
     college_key = request.args.get("college")
     term_key = request.args.get("term")
-    current_app.logger.info("Searching for term %s college %s", term_key, college_key)
+    current_app.logger.info("Searching for term %s college %s", term_key_to_name[term_key], college_key)
 
     colleges = term_data.get(term_key)
     if not colleges:

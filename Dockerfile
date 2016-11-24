@@ -11,4 +11,4 @@ COPY ./unomaha_utils/ /unomaha_utils
 EXPOSE 5566
 
 WORKDIR /unomaha_utils
-CMD ["/usr/local/bin/gunicorn", "-w", "4", "-b", "0.0.0.0:5566", "--error-logfile", "-", "web:app"]
+CMD ["/usr/local/bin/gunicorn", "-t", "120", "-w", "2", "-b", "0.0.0.0:5566", "--error-logfile", "-", "web:app"]
