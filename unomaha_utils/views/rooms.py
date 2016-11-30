@@ -13,9 +13,9 @@ colleges = term_data[sorted(term_data.keys())[-1]]
 
 room_dicts_by_term = {}
 for term_key, colleges in term_data.items():
-    room_dict = build_room_dict(colleges)
-    room_dicts_by_term[term_key] = room_dict
+    room_dicts_by_term[term_key] = build_room_dict(colleges)
 
+# generate list of buildings for dropdown
 buildings = set()
 for term_key, room_dict in room_dicts_by_term.items():
     for room in room_dict.iterkeys():
