@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 {% block content %}
+
+<img class="teacher-cloud" src="{{ url_for('teachers.teacher_wordcloud', name=name) }}" />
+
 {% for college, courses in matching_courses|dictsort %}
     <h2>{{ college }}</h2>
     {% for course, terms in courses|dictsort %}

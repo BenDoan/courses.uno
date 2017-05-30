@@ -8,7 +8,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 SCRIPT_PATH = path.dirname(path.realpath(__file__))
-TERM_DATA_PATH = path.join(SCRIPT_PATH, "static", "all_courses.json")
+DATA_DIR = path.join(SCRIPT_PATH, "data")
+TERM_DATA_PATH = path.join(DATA_DIR, "all_courses.json")
 
 def get_courses():
     if not path.exists(TERM_DATA_PATH):
