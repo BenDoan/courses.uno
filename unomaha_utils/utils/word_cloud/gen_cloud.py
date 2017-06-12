@@ -1,10 +1,17 @@
 #!/usr/bin/env python2
+
+from __future__ import print_function
+
 import enum
 import json
 import random
 import re
-import StringIO
 import sys
+
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 
 from os import path
 
@@ -47,13 +54,13 @@ def get_teacher_reviews(reviews, review_type, teacher_name):
             possible_names.append(name)
 
     if len(possible_names) == 0:
-        print "Found no matching {} reviews".format(review_type.name)
+        print("Found no matching {} reviews".format(review_type.name))
     elif len(possible_names) > 1:
-        print "Found multiple matching {} teachers: {}".format(review_type.name, possible_names)
+        print("Found multiple matching {} teachers: {}".format(review_type.name, possible_names))
     else:
         name = possible_names[0]
         revs = reviews[name]
-        print "Found {} in {} reviews with {} reviews".format(name, review_type.name, len(revs))
+        print("Found {} in {} reviews with {} reviews".format(name, review_type.name, len(revs)))
         return get_words(revs, review_type)
 
 def get_words(reviews, review_type):
@@ -64,7 +71,7 @@ def get_words(reviews, review_type):
     elif review_type == ReviewTypes.RMP:
         return sum([x['comments'].split() for x in reviews], [])
     else:
-        print "ERROR: found unsupported review"
+        print("ERROR: found unsupported review")
         sys.exit(1)
 
 def get_unou_words(reviews, teacher_lastname):
@@ -130,16 +137,16 @@ def get_all_words(data_dir, teacher_name):
     words = []
     if rmp_words:
         words += rmp_words
-        print "{} words from RateMyProfessor".format(len(rmp_words))
+        print("{} words from RateMyProfessor".format(len(rmp_words)))
     if unou_words:
         words += unou_words
-        print "{} words from UNOUnderground".format(len(unou_words))
+        print("{} words from UNOUnderground".format(len(unou_words)))
 
     return words
 
 def _main():
     if len(sys.argv) < 3:
-        print "Usage: ./gen_cloud.py (filename) (teacher_name)..."
+        print("Usage: ./gen_cloud.py (filename) (teacher_name)...")
         sys.exit(1)
 
     fname = sys.argv[1]

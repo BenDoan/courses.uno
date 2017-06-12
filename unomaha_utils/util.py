@@ -13,7 +13,7 @@ TERM_DATA_PATH = path.join(DATA_DIR, "all_courses.json")
 
 def get_courses():
     if not path.exists(TERM_DATA_PATH):
-        print "Couldn't find course data at {}".format(TERM_DATA_PATH)
+        print("Couldn't find course data at {}".format(TERM_DATA_PATH))
         sys.exit(1)
 
     logging.info("Loading course data...")

@@ -18,7 +18,7 @@ for term_key, colleges in term_data.items():
 # generate list of buildings for dropdown
 buildings = set()
 for term_key, room_dict in room_dicts_by_term.items():
-    for room in room_dict.iterkeys():
+    for room in room_dict.keys():
         building_room_pattern = r'([^0-9]+)([0-9]+)'
         matches = re.search(building_room_pattern, room)
 

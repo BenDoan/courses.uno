@@ -12,7 +12,7 @@ classes = Blueprint('classes', __name__,
 latest_colleges = term_data[sorted(term_data.keys())[-1]]
 
 college_keys = sorted(latest_colleges.keys())
-course_keys = list(set(sum([x.keys() for x in latest_colleges.values()], [])))
+course_keys = list(set(sum([list(x.keys()) for x in latest_colleges.values()], [])))
 
 @classes.route("/")
 def hello():
