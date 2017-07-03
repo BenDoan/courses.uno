@@ -12,7 +12,6 @@ from flask import (
     current_app,
     make_response
 )
-from util import term_data, DATA_DIR
 
 from os import path
 
@@ -26,6 +25,13 @@ WORD_CLOUD_CACHE = path.join(SCRIPT_DIR, "..", "data", "UU_WORDCLOUDS")
 teachers = Blueprint('teachers', __name__,
                         template_folder='templates')
 
+term_data = None
+
+def init_data(new_term_data):
+    global term_data
+    if term_data is None:
+        term_data = new_term_data
+
 @teachers.route("/")
 def hello():
     return redirect(url_for('teachers.teacher_search_search'))
@@ -38,6 +44,7 @@ def teacher_search_search():
 
 @teachers.route('/view')
 def teacher_search_view():
+    init_data(current_app.get_term_data())
     teacher_last_name = request.args.get('lastname')
     current_app.logger.info("Searching for teacher %s", teacher_last_name)
 
@@ -59,7 +66,7 @@ def teacher_wordcloud():
 
     cached_png = get_cached_wc(teacher_name)
     if not cached_png:
-        words = get_all_words(DATA_DIR, teacher_name)
+        words = get_all_words(current_app.DATA_DIR, teacher_name)
         png = plot_cloud(clean_text(words))
         cache_wc(teacher_name, png)
     else:

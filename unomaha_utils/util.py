@@ -5,25 +5,9 @@ from os import path
 import sys
 import logging
 
+from flask import current_app
+
 logging.basicConfig(level=logging.INFO)
-
-SCRIPT_PATH = path.dirname(path.realpath(__file__))
-DATA_DIR = path.join(SCRIPT_PATH, "data")
-TERM_DATA_PATH = path.join(DATA_DIR, "all_courses.json")
-
-def get_courses():
-    if not path.exists(TERM_DATA_PATH):
-        print("Couldn't find course data at {}".format(TERM_DATA_PATH))
-        sys.exit(1)
-
-    logging.info("Loading course data...")
-    with open(TERM_DATA_PATH) as f:
-        term_data = json.load(f, object_pairs_hook=OrderedDict)
-    logging.info("Course data loaded")
-    return term_data
-courses_dict = get_courses()
-courses_meta = courses_dict['meta']
-term_data = courses_dict['term_data']
 
 def get_term_from_date(date):
     term_ranges = {('aug', 'dec'): "Fall",
@@ -63,5 +47,3 @@ def get_term_mapping(term_data):
         term_name = get_term_name(colleges)
         mapping[term_key] = term_name
     return mapping
-term_key_to_name = get_term_mapping(term_data)
-term_name_to_key = {v:k for k, v in term_key_to_name.items()}

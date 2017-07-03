@@ -2,29 +2,40 @@ import json
 import re
 
 from flask import Blueprint, request, abort, render_template, redirect, url_for, current_app
-from util import term_data
 
 from utils.classroom_schedules.find_room_schedules import build_room_dict
 
 rooms = Blueprint('rooms', __name__,
                         template_folder='templates')
 
-colleges = term_data[sorted(term_data.keys())[-1]]
+term_data = None
+colleges = None
+buildings = None
+room_dicts_by_term = None
 
-room_dicts_by_term = {}
-for term_key, colleges in term_data.items():
-    room_dicts_by_term[term_key] = build_room_dict(colleges)
+def init_data(new_term_data):
+    global term_data
+    global colleges
+    global buildings
+    global room_dicts_by_term
+    if term_data is None:
+        term_data = new_term_data
+        colleges = term_data[sorted(term_data.keys())[-1]]
 
-# generate list of buildings for dropdown
-buildings = set()
-for term_key, room_dict in room_dicts_by_term.items():
-    for room in room_dict.keys():
-        building_room_pattern = r'([^0-9]+)([0-9]+)'
-        matches = re.search(building_room_pattern, room)
+        room_dicts_by_term = {}
+        for term_key, colleges in term_data.items():
+            room_dicts_by_term[term_key] = build_room_dict(colleges)
 
-        if matches:
-            buildings.add(matches.group(1).strip())
-buildings = list(buildings)
+        # generate list of buildings for dropdown
+        buildings = set()
+        for term_key, room_dict in room_dicts_by_term.items():
+            for room in room_dict.keys():
+                building_room_pattern = r'([^0-9]+)([0-9]+)'
+                matches = re.search(building_room_pattern, room)
+
+                if matches:
+                    buildings.add(matches.group(1).strip())
+        buildings = list(buildings)
 
 @rooms.route("/", methods=["GET"])
 def hello():
@@ -32,10 +43,12 @@ def hello():
 
 @rooms.route('/search')
 def room_search_search():
+    init_data(current_app.get_term_data())
     return render_template("room_search.html", buildings=buildings)
 
 @rooms.route('/view')
 def room_search_view():
+    init_data(current_app.get_term_data())
     term = request.args.get("term")
     building = request.args.get("building")
     room_number = request.args.get("room_number")

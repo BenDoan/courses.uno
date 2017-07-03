@@ -1,0 +1,75 @@
+{
+    "Benjamin Floyd": [],
+    "Josh Nelson": [
+        {
+            "course": "CIST1404",
+            "take_again": "N/A",
+            "tags": [],
+            "grade": "A+",
+            "date": "04/09/2014",
+            "quality_rating": "good",
+            "easy_rating": 1,
+            "comments": "Josh is one of the hottest instructors I have ever seen. I get excited every time I hear his succulent voice and have the pleasure of viewing his voluptuous beard ;) Josh is a great instructor, as well as his beard. I would sure compile his code ;)",
+            "overall_rating": 4
+        }
+    ],
+    "Kyle Kovar": [
+        {
+            "course": "MKT3310",
+            "take_again": "N/A",
+            "tags": [],
+            "grade": "B+",
+            "date": "05/30/2014",
+            "quality_rating": "awesome",
+            "easy_rating": 2,
+            "comments": "Kyle is a really nice guy, I would definitely recommend him. He actually cares about students and wants their success. Attendance is mandatory, as in class assignments are 10 points each. One of the best professors I have had at UNO.",
+            "overall_rating": 5
+        }
+    ],
+    "Allison Poss": [
+        {
+            "course": "PSYC1010",
+            "take_again": "N/A",
+            "tags": [],
+            "grade": "N/A",
+            "date": "06/13/2012",
+            "quality_rating": "awesome",
+            "easy_rating": 2,
+            "comments": "Great teacher! Very helpful! The lectures were interesting, and the tests go right off the study guides! Highly recommended.",
+            "overall_rating": 5
+        },
+        {
+            "course": "PSYC1010",
+            "take_again": "N/A",
+            "tags": [],
+            "grade": "N/A",
+            "date": "04/30/2013",
+            "quality_rating": "awesome",
+            "easy_rating": 3,
+            "comments": "Allison is a great teacher - super friendly and very passionate about what she does. She has great stories and I loved going to class.",
+            "overall_rating": 5
+        },
+        {
+            "course": "PSYC1010",
+            "take_again": "N/A",
+            "tags": [],
+            "grade": "N/A",
+            "date": "05/04/2012",
+            "quality_rating": "awesome",
+            "easy_rating": 3,
+            "comments": "She is a good teacher, she is very helpful, she give study guides for test and will pretty much tell you whats on the test if you go to her study group. If you go to all her classes and do the extra credit you can bring up your grade...by alot. good teach highly recommend her.",
+            "overall_rating": 5
+        },
+        {
+            "course": "PSYCH1010",
+            "take_again": "N/A",
+            "tags": [],
+            "grade": "N/A",
+            "date": "04/10/2012",
+            "quality_rating": "awesome",
+            "easy_rating": 2,
+            "comments": "Allison was an awesome instructor. I highly recommend her for the intro class. Plus she's hot!",
+            "overall_rating": 5
+        }
+    ]
+}

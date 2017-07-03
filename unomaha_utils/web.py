@@ -4,15 +4,26 @@ import logging
 import json
 import re
 
-from flask import Flask, render_template
+from flask import Flask, render_template, current_app
+
+from collections import OrderedDict
+from os import path
 
 from views.main import main
 from views.classes import classes
 from views.rooms import rooms
 from views.teachers import teachers
 
-from util import courses_meta, term_key_to_name, term_name_to_key
+from util import get_term_mapping
 from utils.course_history.search import get_term, get_term_from_date
+
+SCRIPT_PATH = path.dirname(path.realpath(__file__))
+
+DATA_DIR = path.join(SCRIPT_PATH, "data")
+TEST_DATA_DIR = path.join(SCRIPT_PATH, "test_data")
+
+TERM_DATA_PATH = path.join(DATA_DIR, "all_courses.json")
+TEST_TERM_DATA_PATH = path.join(TEST_DATA_DIR, "all_courses.json")
 
 wlog = logging.getLogger('werkzeug')
 wlog.setLevel(logging.ERROR)
@@ -32,13 +43,44 @@ def create_app():
 
     app.jinja_env.globals.update(get_term=get_term, get_term_from_date=get_term_from_date)
 
+    app.term_data = None
+    def get_term_data():
+        if current_app.term_data is None:
+            if current_app.testing:
+                data_path = TEST_TERM_DATA_PATH
+            else:
+                data_path = TERM_DATA_PATH
+
+            if not path.exists(data_path):
+                print("Couldn't find term data at {}, exiting".format(data_path))
+                sys.exit(1)
+
+            logging.info("Loading term data from %s...", data_path)
+            with open(data_path) as f:
+                courses_dict = json.load(f, object_pairs_hook=OrderedDict)
+                current_app.courses_meta = courses_dict['meta']
+                current_app.term_data = courses_dict['term_data']
+
+                current_app.term_key_to_name = get_term_mapping(current_app.term_data)
+                current_app.term_name_to_key = {v:k for k, v in current_app.term_key_to_name.items()}
+            logging.info("Term data loaded")
+
+        return current_app.term_data
+    app.get_term_data = get_term_data
+
+    app.DATA_DIR = DATA_DIR
+
+    @app.before_request
+    def before_request():
+        get_term_data()
+
     @app.context_processor
     def inject_user():
         return {
-            "courses_meta": courses_meta,
-            "last_updated": datetime.datetime.fromtimestamp(courses_meta['time']).strftime("%Y-%m-%d"),
-            "term_key_to_name": term_key_to_name,
-            "term_name_to_key": term_name_to_key
+            "courses_meta": current_app.courses_meta,
+            "last_updated": datetime.datetime.fromtimestamp(current_app.courses_meta['time']).strftime("%Y-%m-%d"),
+            "term_key_to_name": current_app.term_key_to_name,
+            "term_name_to_key": current_app.term_name_to_key
         }
 
     @app.errorhandler(404)

@@ -1,0 +1,1856 @@
+{
+    "meta": {
+        "url": "http://www.unomaha.edu/registrar/students/before-you-enroll/class-search/",
+        "time_str": "2017-05-15 19:19:51.719476",
+        "time": 1494893991
+    },
+    "term_data": {
+        "1121": {
+            "ACCT": {
+                "2010": {
+                    "title": "PRINCIPLES OF ACCOUNTING I",
+                    "desc": "Basic concepts and assumptions underlying financial accounting; basic structure of accounting; the accounting cycle; external financial statements of the enterprise with emphasis on the corporation; income determination; accounting for and reporting of assets, liabilities and owners' equity; analysis and reporting of cash flows; financial statement analysis.",
+                    "prereq": "Prereq: 18 earned credits, MATH1310 with a 'C'(2.0) or better, and a 2.3 GPA.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11628?",
+                            "Type": "LEC",
+                            "Enrolled": "52",
+                            "Class Max": "52",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 117",
+                            "Instructor": "Allison Poss"
+                        },
+                        "002": {
+                            "Class Number": "11632?",
+                            "Type": "LEC",
+                            "Enrolled": "54",
+                            "Class Max": "52",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00PM - 1:15PM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 119",
+                            "Instructor": "Xiaoyan Cheng"
+                        },
+                        "003": {
+                            "Class Number": "11630?",
+                            "Type": "LEC",
+                            "Enrolled": "54",
+                            "Class Max": "52",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 118",
+                            "Instructor": "Kate W King"
+                        },
+                        "004": {
+                            "Class Number": "11631?",
+                            "Type": "LEC",
+                            "Enrolled": "51",
+                            "Class Max": "52",
+                            "Seats Available": "1",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 120",
+                            "Instructor": "Kate W King"
+                        },
+                        "850": {
+                            "Class Number": "11629?",
+                            "Type": "LEC",
+                            "Enrolled": "36",
+                            "Class Max": "40",
+                            "Seats Available": "4",
+                            "Credit Hours": "3",
+                            "Course Attribute": "Partially Online",
+                            "Note": "Students are required to take three proctored exams on-campus during the semester and are required to take the Final Examination on-campus April 28.",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "Internet Mediated",
+                            "Instructor": "Xiaoyan Cheng"
+                        }
+                    }
+                },
+                "2020": {
+                    "title": "PRINCIPLES OF ACCOUNTING II",
+                    "desc": "A study of techniques and concepts affecting internal accounting in a business organization. These include budgeting in general, costing systems, variance analysis and generating reports for management decision-making. Special topics include segment reporting, control of decentralized operations, capital budgeting, and service department cost allocations.",
+                    "prereq": "Prereq: ACCT2010 with a C (2.0) or better and a 2.3 GPA.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11637?",
+                            "Type": "LEC",
+                            "Enrolled": "65",
+                            "Class Max": "64",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00PM - 1:15PM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 320B",
+                            "Instructor": "Laura Ilcisin"
+                        },
+                        "002": {
+                            "Class Number": "11633?",
+                            "Type": "LEC",
+                            "Enrolled": "52",
+                            "Class Max": "52",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 117",
+                            "Instructor": "Jillian K. Poyzer"
+                        },
+                        "003": {
+                            "Class Number": "11634?",
+                            "Type": "LEC",
+                            "Enrolled": "52",
+                            "Class Max": "52",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 117",
+                            "Instructor": "Jillian K. Poyzer"
+                        },
+                        "005": {
+                            "Class Number": "11636?",
+                            "Type": "LEC",
+                            "Enrolled": "41",
+                            "Class Max": "50",
+                            "Seats Available": "9",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 118",
+                            "Instructor": "Wikil Kwak"
+                        }
+                    }
+                },
+                "3020": {
+                    "title": "BASIC FED INCOME TAX",
+                    "desc": "An introduction to federal income tax basic concepts and principles.  Tax concepts unique to individual taxpayers are also addressed.",
+                    "prereq": "Prereq: ACCT 2020, ECON 2200 and 2220 with a 'C' (2.0) or better in each course.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11638?",
+                            "Type": "LEC",
+                            "Enrolled": "44",
+                            "Class Max": "44",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:45PM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 325",
+                            "Instructor": "Jillian K. Poyzer"
+                        },
+                        "002": {
+                            "Class Number": "11639?",
+                            "Type": "LEC",
+                            "Enrolled": "39",
+                            "Class Max": "44",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "R",
+                            "Location": "Mammel Hall 122",
+                            "Instructor": "Jillian K. Poyzer"
+                        }
+                    }
+                },
+                "3030": {
+                    "title": "INTERMEDIATE FINANCIAL ACCT I",
+                    "desc": "A more intensive study of basic accounting theory and principles learned in ACCT 2010. Topics include a conceptual framework of accounting, net income concepts, financial statements, present value applications, current assets, plant assets, intangible assets and liabilities. (Fall, Spring)",
+                    "prereq": "Prereq: ACCT 2020, ECON 2200, and ECON 2220, with a grade of 'C' (2.0) or better in each course and a 2.5 GPA.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11640?",
+                            "Type": "LEC",
+                            "Enrolled": "40",
+                            "Class Max": "44",
+                            "Seats Available": "4",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 321",
+                            "Instructor": "Xiaoyan Cheng"
+                        },
+                        "002": {
+                            "Class Number": "11641?",
+                            "Type": "LEC",
+                            "Enrolled": "44",
+                            "Class Max": "44",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 323",
+                            "Instructor": "Jack Lonnie Armitage"
+                        }
+                    }
+                },
+                "3040": {
+                    "title": "INTERMEDIATE ACCOUNTING II",
+                    "desc": "This is the second of two courses in intermediate financial accounting. It focuses on financial reporting issues relating to stockholders' equity, leases, pensions and other postretirement benefits, and income taxes. Other topics include earnings per share and cash flows. It is intended for students who plan to major in accounting. However, it would also be useful for prospective users of financial statements. (Fall, Spring)",
+                    "prereq": "Prereq: ACCT 3030 with a 'C' (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11642?",
+                            "Type": "LEC",
+                            "Enrolled": "41",
+                            "Class Max": "44",
+                            "Seats Available": "3",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 323",
+                            "Instructor": "Burch T Kealey"
+                        },
+                        "002": {
+                            "Class Number": "11643?",
+                            "Type": "LEC",
+                            "Enrolled": "49",
+                            "Class Max": "50",
+                            "Seats Available": "1",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "M",
+                            "Location": "Mammel Hall 120",
+                            "Instructor": "Susan W Eldridge"
+                        }
+                    }
+                },
+                "3050": {
+                    "title": "INTERMEDIATE MANAGERIAL ACCT",
+                    "desc": "The objective of managerial accounting is to provide management with relevant and timely information to aid economic decision making. This course analyzes numerous economic decisions and identifies what information is relevant. Special attention is given to how accounting can support TQM, JIT, and Activity-Based Management.",
+                    "prereq": "Prereq: ACCT 2020, and BSAD 3140 or BSAD 3160.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11644?",
+                            "Type": "LEC",
+                            "Enrolled": "40",
+                            "Class Max": "40",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00PM - 1:15PM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 215",
+                            "Instructor": "Roopa Venkatesh"
+                        },
+                        "002": {
+                            "Class Number": "11645?",
+                            "Type": "LEC",
+                            "Enrolled": "38",
+                            "Class Max": "40",
+                            "Seats Available": "2",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "W",
+                            "Location": "Mammel Hall 324",
+                            "Instructor": "Roopa Venkatesh"
+                        }
+                    }
+                },
+                "3080": {
+                    "title": "ACCOUNTING INFORMATION SYSTEMS",
+                    "desc": "Introduction to professional accounting information systems, including information systems concepts, accounting and database software and research tools to provide a foundation for subsequent accounting courses.",
+                    "prereq": "Prereq: ACCT 2020, ECON 2200 and 2220, with 'C' (2.0) or better in each.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11646?",
+                            "Type": "LEC",
+                            "Enrolled": "40",
+                            "Class Max": "40",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "3:00PM - 5:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 319",
+                            "Instructor": "Jennifer L Riley"
+                        },
+                        "002": {
+                            "Class Number": "11647?",
+                            "Type": "LEC",
+                            "Enrolled": "24",
+                            "Class Max": "40",
+                            "Seats Available": "16",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "3:00PM - 5:40PM",
+                            "Days": "R",
+                            "Location": "Mammel Hall 319",
+                            "Instructor": "Jennifer L Riley"
+                        }
+                    }
+                },
+                "4010": {
+                    "title": "ADVANCED FINANCIAL ACCOUNTING",
+                    "desc": "Mergers and corporate acquisitions including consolidation techniques are studied. Other topics include: translation of foreign currency financial statements; accounting for foreign currency denominated transactions; financial instruments and hedging transactions; accounting and reporting for individuals and their estates, as well as partnerships. Cross-listed with ACCT 8016.",
+                    "prereq": "Prereq: ACCT 3040 with 'C' (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11648?",
+                            "Type": "LEC",
+                            "Enrolled": "11",
+                            "Class Max": "27",
+                            "Seats Available": "16",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:45PM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Richard Garrison File"
+                        },
+                        "002": {
+                            "Class Number": "11649?",
+                            "Type": "LEC",
+                            "Enrolled": "23",
+                            "Class Max": "27",
+                            "Seats Available": "4",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Richard Garrison File"
+                        }
+                    }
+                },
+                "4040": {
+                    "title": "ADV FED INCOME TAX",
+                    "desc": "Analysis of various advanced tax issues applicable to individuals, partnerships, corporations, and limited liability companies, such as property transactions, including tax-deferred exchanges, passive exchange rules, transactions between shareholders and their corporations, and partners and their partnerships. (Cross-listed with ACCT 8046.)",
+                    "prereq": "Prereq: ACCT 3020 with a 'C' (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11650?",
+                            "Type": "LEC",
+                            "Enrolled": "21",
+                            "Class Max": "27",
+                            "Seats Available": "6",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 220",
+                            "Instructor": "Timothy Ray Yoder"
+                        },
+                        "002": {
+                            "Class Number": "14137?",
+                            "Type": "LEC",
+                            "Enrolled": "22",
+                            "Class Max": "27",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "W",
+                            "Location": "Mammel Hall 220",
+                            "Instructor": "Timothy Ray Yoder"
+                        }
+                    }
+                },
+                "4060": {
+                    "title": "ADVANCED MANAGERIAL ACCOUNTING",
+                    "desc": "An intensive analysis of current topics in managerial accounting. (Cross-listed with ACCT 8066.)",
+                    "prereq": "Prereq: ACCT 3050 with 'C' (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14135?",
+                            "Type": "LEC",
+                            "Enrolled": "23",
+                            "Class Max": "27",
+                            "Seats Available": "4",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 4:10PM",
+                            "Days": "W",
+                            "Location": "Mammel Hall 325",
+                            "Instructor": "Wikil Kwak"
+                        }
+                    }
+                },
+                "4070": {
+                    "title": "GOVT/NONPROFIT ACCTG/AUD",
+                    "desc": "Study of budgeting, accounting, financial reporting and auditing in governmental and nonprofit entities. (Cross-listed with ACCT 8076.)",
+                    "prereq": "Prereq: ACCT 3080 with a 'C' (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11651?",
+                            "Type": "LEC",
+                            "Enrolled": "27",
+                            "Class Max": "27",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Richard Garrison File"
+                        }
+                    }
+                },
+                "4080": {
+                    "title": "PRINCIPLES OF AUDITING",
+                    "desc": "An introduction to auditing, Standards, responsibilities, professional ethics, the audit framework, evidence and reports are studied.",
+                    "prereq": "Prereq: ACCT 3030, 3080 and BSAD 2130 or BSAD 3160 with a 'C' (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11652?",
+                            "Type": "LEC",
+                            "Enrolled": "35",
+                            "Class Max": "35",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 215",
+                            "Instructor": "Jack Lonnie Armitage"
+                        },
+                        "002": {
+                            "Class Number": "30323?",
+                            "Type": "LEC",
+                            "Enrolled": "23",
+                            "Class Max": "35",
+                            "Seats Available": "12",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:45PM",
+                            "Days": "MW",
+                            "Location": "Mammel Hall 215",
+                            "Instructor": "Jack Lonnie Armitage"
+                        }
+                    }
+                },
+                "4090": {
+                    "title": "INFORMATION SYSTEMS AUDITING",
+                    "desc": "This course will provide an introduction of auditing an advanced accounting information system.  Content studied will  include professional standards, guidelines, and procedures promulgated by the Information Systems Audit and Control Association.  Accounting information systems control and security practices, and their assessment, will be discussed in the areas of operations, physical and logical access, systems, networks, development and applications, and incorporating hands-on exposure to automated evaluation tools. (Cross-listed with ACCT 8096.)",
+                    "prereq": "Prereq: ACCT 4080 with a grade of C (2.0) or better.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11653?",
+                            "Type": "LEC",
+                            "Enrolled": "13",
+                            "Class Max": "27",
+                            "Seats Available": "14",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "R",
+                            "Location": "Mammel Hall 319",
+                            "Instructor": "Michael T Hoesing"
+                        }
+                    }
+                },
+                "4500": {
+                    "title": "INDEPENDENT STUDY",
+                    "desc": "Individual investigation of specific problems in the field of accounting.",
+                    "prereq": "Prereq: Must have permission of the accounting department.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11654?",
+                            "Type": "IND",
+                            "Enrolled": "1",
+                            "Class Max": "5",
+                            "Seats Available": "4",
+                            "Credit Hours": "1-3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Susan W Eldridge"
+                        }
+                    }
+                },
+                "4510": {
+                    "title": "ACCOUNTING INTERNSHIP",
+                    "desc": "A course for junior or senior accounting students to apply their academic accounting knowledge to accounting practice in an employment situation. A student report on the internship experience and an employer's evaluation of the student's performance are course requirements. Can be applied to free electives, but not accounting specialization electives. (Maximum of 3 hours)",
+                    "prereq": "Prereq: ACCT2010 and ACCT2020 with a C (2.0) or better, and permission of internship coordinator.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11655?",
+                            "Type": "IND",
+                            "Enrolled": "22",
+                            "Class Max": "50",
+                            "Seats Available": "28",
+                            "Credit Hours": "1-3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Laura Ilcisin"
+                        }
+                    }
+                },
+                "8016": {
+                    "title": "ADVANCED FINANCIAL ACCOUNTING",
+                    "desc": "Mergers and corporate acquisitions including consolidation techniques are studied. Other topics include: translation of foreign currency financial statements; accounting for foreign currency denominated transactions; financial instruments and hedging transactions; accounting and reporting for individuals and their estates, as well as partnerships. (Cross-listed with ACCT 4010.)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11656?",
+                            "Type": "LEC",
+                            "Enrolled": "1",
+                            "Class Max": "8",
+                            "Seats Available": "7",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:45PM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Richard Garrison File"
+                        },
+                        "002": {
+                            "Class Number": "11657?",
+                            "Type": "LEC",
+                            "Enrolled": "6",
+                            "Class Max": "8",
+                            "Seats Available": "2",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Richard Garrison File"
+                        }
+                    }
+                },
+                "8046": {
+                    "title": "ADVANCED FEDERAL INCOME TAX",
+                    "desc": "Analysis of various advanced tax issues applicable to individuals, partnerships, corporations, and limited liability companies, such as executive compensation, tax-deferred exchanges, passive activity rules, and transactions between shareholders and their corporations and between partners and their partnerships. (Cross-listed with ACCT 4040.)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11658?",
+                            "Type": "LEC",
+                            "Enrolled": "3",
+                            "Class Max": "8",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 220",
+                            "Instructor": "Timothy Ray Yoder"
+                        },
+                        "002": {
+                            "Class Number": "14138?",
+                            "Type": "LEC",
+                            "Enrolled": "7",
+                            "Class Max": "8",
+                            "Seats Available": "1",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "W",
+                            "Location": "Mammel Hall 220",
+                            "Instructor": "Timothy Ray Yoder"
+                        }
+                    }
+                },
+                "8066": {
+                    "title": "ADVANCED MANAGERIAL ACCOUNTING",
+                    "desc": "A more intensive analysis of advanced managerial accounting techniques that helps managers plan and control in both the short and long run. (Cross-listed with ACCT 4060.)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14136?",
+                            "Type": "LEC",
+                            "Enrolled": "2",
+                            "Class Max": "8",
+                            "Seats Available": "6",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Instructor": "Wikil Kwak"
+                        }
+                    }
+                },
+                "8076": {
+                    "title": "GOVT/NONPROFIT ACCTG/AUD",
+                    "desc": "Study of budgeting, accounting, financial reporting and auditing in governmental and nonprofit entities. (Cross-listed with ACCT 4070.)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11659?",
+                            "Type": "LEC",
+                            "Enrolled": "0",
+                            "Class Max": "8",
+                            "Seats Available": "8",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Richard Garrison File"
+                        }
+                    }
+                },
+                "8096": {
+                    "title": "INFORMATION SYSTEMS AUDITING",
+                    "desc": "This course will provide an introduction of auditing an advanced accounting information system.  Content studied will  include professional standards, guidelines, and procedures promulgated by the Information Systems Audit and Control Association.  Accounting information systems control and security practices, and their assessment, will be discussed in the areas of operations, physical and logical access, systems, networks, development and applications, and incorporating hands-on exposure to automated evaluation tools. (Cross-listed with ACCT 4090.)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11660?",
+                            "Type": "LEC",
+                            "Enrolled": "1",
+                            "Class Max": "8",
+                            "Seats Available": "7",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "R",
+                            "Location": "Mammel Hall 319",
+                            "Instructor": "Michael T Hoesing"
+                        }
+                    }
+                },
+                "8210": {
+                    "title": "FINANCIAL ACCOUNTING THEORY",
+                    "desc": "The development of accounting, current accounting theory and present controversies and suggested theory and practice.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11661?",
+                            "Type": "LEC",
+                            "Enrolled": "13",
+                            "Class Max": "20",
+                            "Seats Available": "7",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "M",
+                            "Location": "Mammel Hall 218",
+                            "Instructor": "Burch T Kealey"
+                        }
+                    }
+                },
+                "8230": {
+                    "title": "STRAT & OPER PLAN & CONTR",
+                    "desc": "An analysis of information to assist managers in determining successful strategies, developing those strategies into plans and controlling operating activities to achieve strategic goals.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11662?",
+                            "Type": "LEC",
+                            "Enrolled": "18",
+                            "Class Max": "25",
+                            "Seats Available": "7",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:00PM - 8:40PM",
+                            "Days": "T",
+                            "Location": "Mammel Hall 220",
+                            "Instructor": "Richard F. Ortman"
+                        }
+                    }
+                },
+                "8250": {
+                    "title": "SEMINAR IN ACCOUNTING",
+                    "desc": "A study of a specific area within the accounting discipline. Possible areas include: auditing, financial, managerial, systems and tax. May be repeated, but no area can be taken more than once.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "30324?",
+                            "Type": "SEM",
+                            "Enrolled": "13",
+                            "Class Max": "20",
+                            "Seats Available": "7",
+                            "Credit Hours": "3",
+                            "Note": "Pre-req is ACCT 3020 with C or better and admission to MACC or MBA program.",
+                            "Topic": "TAXATION",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "3:00PM - 4:15PM",
+                            "Days": "TR",
+                            "Location": "Mammel Hall 215",
+                            "Instructor": "Timothy Ray Yoder"
+                        }
+                    }
+                },
+                "8900": {
+                    "title": "INDEPENDENT STUDY",
+                    "desc": "Individual research supplementing graduate study in a specific area within the Accounting discipline. May be repeated to a maximum of six hours.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11663?",
+                            "Type": "IND",
+                            "Enrolled": "0",
+                            "Class Max": "5",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Susan W Eldridge"
+                        }
+                    }
+                },
+                "8910": {
+                    "title": "SPECIAL TOPICS IN ACCOUNTING",
+                    "desc": "A variable content course with accounting topics selected in accordance with student and faculty interest. May be repeated to a maximum of six (6) hours.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11664?",
+                            "Type": "LEC",
+                            "Enrolled": "0",
+                            "Class Max": "5",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Susan W Eldridge"
+                        }
+                    }
+                }
+            },
+            "AERO": {
+                "1010": {
+                    "title": "LEADERSHIP LABORATORY",
+                    "desc": "Leadership Laboratory courses (LLABs) include a study of Air Force customs and courtesies, drill and ceremonies, and military commands. The LLAB also includes studying the environment of an Air Force officer and learning about areas of opportunity available to commissioned officers. During the junior and senior year, LLABs consist of activities classified as leadership and management experiences. They involve the planning and controlling of military activities of the cadet corps, and the preparation and presentation of briefings and other oral and written communications. LLABs also include interviews, guidance, and information that will increase the understanding, motivation, and performance of other cadets.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11665?",
+                            "Type": "LAB",
+                            "Enrolled": "35",
+                            "Class Max": "100",
+                            "Seats Available": "65",
+                            "Credit Hours": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:30AM - 8:30AM",
+                            "Days": "W",
+                            "Location": "HPER Building 128",
+                            "Instructor": "Heather A Wempe"
+                        }
+                    }
+                },
+                "1320": {
+                    "title": "FOUNDATIONS OF USAF II",
+                    "desc": "Survey courses designed to introduce students to the United States Air Force and Air Force Reserve Officer Training Corps. Featured topics include: mission and organization of the Air Force, officership and professionalism, military customs and courtesies, Air Force officer opportunities, and an introduction to communication skills. Leadership Laboratory is mandatory for AFROTC cadets and complements this course by providing cadets with followership experiences.  (Spring)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11666?",
+                            "Type": "LEC",
+                            "Enrolled": "13",
+                            "Class Max": "35",
+                            "Seats Available": "22",
+                            "Credit Hours": "1",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:00AM - 10:50AM",
+                            "Days": "M",
+                            "Location": "HPER Building 112",
+                            "Instructor": "Michael C Stargell"
+                        }
+                    }
+                },
+                "2320": {
+                    "title": "EV USAF AIR & SPACE PWR II",
+                    "desc": "The courses are designed to examine general aspects of air and space power through a historical perspective. Utilizing this perspective, the courses cover a time period from the first balloons and dirigibles to the space-age global positioning systems of the Persian Gulf War. Historical examples are provided to extrapolate the development of Air Force capabilities (competencies), and missions (functions) to demonstrate the evolution of what has become today's USAF air and space power. Furthermore, the courses examine several fundamental truths associated with war in the third dimension: e.g. Principles of War and Tenets of Air and Space Power. As a whole, these courses provide students with a knowledge level understanding for the general element and employment of air and space power, from an institutional, doctrinal, and historical perspective. In addition, the students will continue to discuss the importance of the Air Force Core Values with the use of operational examples and historical Air Force leaders and will continue to develop their communication skills. Leadership Laboratory is mandatory for AFROTC cadets and complements this course by providing cadets with followership experiences. (Spring)",
+                    "prereq": "Prereq: AERO 1310 & 1320 or permission of instructor.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11667?",
+                            "Type": "LEC",
+                            "Enrolled": "6",
+                            "Class Max": "30",
+                            "Seats Available": "24",
+                            "Credit Hours": "1",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:00AM - 10:50AM",
+                            "Days": "W",
+                            "Location": "HPER Building 112",
+                            "Instructor": "Michael C Stargell"
+                        }
+                    }
+                },
+                "3120": {
+                    "title": "AIR FORCE LEADERSHIP II",
+                    "desc": "A study of leadership, management fundamentals, professional knowledge, Air Force personnel and evaluation systems, leadership ethics, and communication skills required of an Air Force junior officer. Case studies are used to examine Air Force leadership and management situations as a means of demonstrating and exercising practical application of the concepts being studied. A mandatory Leadership Laboratory complements this course by providing advanced leadership experiences in officer-type activities, giving students the opportunity to apply leadership and management principles of this course.  (Spring)",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11668?",
+                            "Type": "LEC",
+                            "Enrolled": "7",
+                            "Class Max": "30",
+                            "Seats Available": "23",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "2:30PM - 4:00PM",
+                            "Days": "MW",
+                            "Location": "Arts and Sciences Hall 378",
+                            "Instructor": "Heather A Wempe"
+                        }
+                    }
+                },
+                "4120": {
+                    "title": "NAT SECURITY/DUTY PREP II",
+                    "desc": "These courses examine the national security process, regional studies, advanced leadership ethics, and Air Force doctrine. Special topics of interest focus on the military as a profession, officership, military justice, civilian control of the military, preparation for active duty, and current issues affecting military professionalism. Within this structure, continued emphasis is given to refining communication skills. A mandatory Leadership Laboratory complements this course by providing advanced leadership experiences, giving students the opportunity to apply the leadership and management principles of this course.  (Spring)",
+                    "prereq": "Prereq: AERO 3110 and 3120 or permission of instructor.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11669?",
+                            "Type": "LEC",
+                            "Enrolled": "8",
+                            "Class Max": "30",
+                            "Seats Available": "22",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:00AM - 11:30AM",
+                            "Days": "MW",
+                            "Location": "Durham Science Center 255",
+                            "Instructor": "Stephen P Barrows"
+                        }
+                    }
+                }
+            },
+            "ANTH": {
+                "1050": {
+                    "title": "INTRODUCTION TO ANTHROPOLOGY",
+                    "desc": "Anthropology is the humanistic and scientific study of humans, past and present. This course will present an overview of the four subdisciplines of anthropology: sociocultural, archaeological, biological, and linguistic.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11670?",
+                            "Type": "LEC",
+                            "Enrolled": "142",
+                            "Class Max": "145",
+                            "Seats Available": "3",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:00AM - 11:15AM",
+                            "Days": "TR",
+                            "Location": "Arts and Sciences Hall 438",
+                            "Instructor": "Timi Lynne Barone"
+                        },
+                        "002": {
+                            "Class Number": "14256?",
+                            "Type": "LEC",
+                            "Enrolled": "49",
+                            "Class Max": "50",
+                            "Seats Available": "1",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:00PM - 2:15PM",
+                            "Days": "TR",
+                            "Location": "Eppley Admin Building 102",
+                            "Instructor": "Alan J Osborn"
+                        },
+                        "003": {
+                            "Class Number": "14387?",
+                            "Type": "LEC",
+                            "Enrolled": "49",
+                            "Class Max": "50",
+                            "Seats Available": "1",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "11:30AM - 12:45PM",
+                            "Days": "TR",
+                            "Location": "Eppley Admin Building 102",
+                            "Instructor": "Alan J Osborn"
+                        },
+                        "850": {
+                            "Class Number": "11671?",
+                            "Type": "LEC",
+                            "Enrolled": "37",
+                            "Class Max": "37",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Course Attribute": "Totally Online",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "Internet Mediated",
+                            "Instructor": "John C Whitehouse"
+                        },
+                        "851": {
+                            "Class Number": "11672?",
+                            "Type": "LEC",
+                            "Enrolled": "40",
+                            "Class Max": "40",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Course Attribute": "Totally Online",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "Internet Mediated",
+                            "Instructor": "John C Whitehouse"
+                        }
+                    }
+                },
+                "2000": {
+                    "title": "ETHNOGRAPHY",
+                    "desc": "This is a self-paced course in which the student views films and reads books and articles regarding a specific culture. Each culture will be a one (1) credit hour module. The intent is to acquaint the student in some depth with other cultures in the world.",
+                    "prereq": "Prereq: One course in the social sciences and the instructor's permission.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "33164?",
+                            "Type": "IND",
+                            "Enrolled": "3",
+                            "Class Max": "0",
+                            "Seats Available": "0",
+                            "Credit Hours": "1-4",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Timi Lynne Barone"
+                        }
+                    }
+                },
+                "2990": {
+                    "title": "GUIDED READING",
+                    "desc": "The course is designed to allow the student enrolled in an anthropology course to pursue a specialized interest or topic in greater depth than is or was possible for the other course as a whole.",
+                    "prereq": "Prereq: Concurrent enrollment in an anthropology course or enrollment in an anthropology course in the immediately preceding semester and permission of instructor.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11673?",
+                            "Type": "IND",
+                            "Enrolled": "3",
+                            "Class Max": "0",
+                            "Seats Available": "0",
+                            "Credit Hours": "1-6",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Mary Ann Powell"
+                        }
+                    }
+                },
+                "3210": {
+                    "title": "CULTURES OF AFRICAN PEOPLE",
+                    "desc": "An introduction to cultures and societies of Africa. Analysis of kinship systems; political, economic and religious institutions; social change. Emphasis on the dynamics of social organization of African people.",
+                    "prereq": "Prereq: Sophomore or above with one three-hour introductory social science course",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11674?",
+                            "Type": "LEC",
+                            "Enrolled": "10",
+                            "Class Max": "10",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:00PM - 2:15PM",
+                            "Days": "TR",
+                            "Location": "Arts and Sciences Hall 378",
+                            "Instructor": "Manfred O Wogugu"
+                        }
+                    }
+                },
+                "3220": {
+                    "title": "PEOPLES & CULT OF NAT NORTH AM",
+                    "desc": "A survey of the native peoples and cultures of North America, past and present. Topics covered include: economics, religion, social organization, kinship, political organization, material culture, gender and culture change through time.",
+                    "prereq": "Prereq: Sophomore or above with one three-hour introductory social science course",
+                    "sections": {
+                        "001": {
+                            "Class Number": "29550?",
+                            "Type": "LEC",
+                            "Enrolled": "30",
+                            "Class Max": "30",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "11:30AM - 12:45PM",
+                            "Days": "TR",
+                            "Location": "Arts and Sciences Hall 279",
+                            "Instructor": "Beth Rene Ritter"
+                        }
+                    }
+                },
+                "3910": {
+                    "title": "INTRODUCTION TO PHYSICAL ANTH",
+                    "desc": "An introduction to physical anthropology through an examination of theories and techniques used to investigate human origins; the relationship between humans and their physical environment; human variation, growth and development; and the evolution of human diseases.",
+                    "prereq": "Prereq: ANTH1050.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14257?",
+                            "Type": "LEC",
+                            "Enrolled": "25",
+                            "Class Max": "25",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:00PM - 2:15PM",
+                            "Days": "TR",
+                            "Location": "Allwine Hall 301",
+                            "Instructor": "Timi Lynne Barone"
+                        }
+                    }
+                },
+                "4260": {
+                    "title": "TOPICS IN ETHNOLOGY",
+                    "desc": "The comparative study of cultures in a particular behavior realm. Each semester the course is offered, one topic will be selected from substantive topics in ethnology, such as: Applied Anthropology, Medical Anthropology, Economic Anthropology, Political Anthropology, Psychological Anthropology (culture & personality), Comparative Analysis of Kinship, or the Anthropology of Religion. Since the topic will vary, students may elect to take this course more than once.",
+                    "prereq": "Prereq: Junior or senior with six hours in any of the social sciences.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "33315?",
+                            "Type": "LEC",
+                            "Enrolled": "8",
+                            "Class Max": "10",
+                            "Seats Available": "2",
+                            "Credit Hours": "3",
+                            "Topic": "HIV & AIDS IN AFRICA",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "11:30AM - 12:45PM",
+                            "Days": "TR",
+                            "Location": "Arts and Sciences Hall 215",
+                            "Instructor": "Manfred O Wogugu"
+                        }
+                    }
+                },
+                "4900": {
+                    "title": "ANTHROPOLOGICAL RESEARCH",
+                    "desc": "Supervised experience in anthropological research. The student either (1) joins an ongoing research project undertaken by a member of the faculty and gains experience and competence in anthropological research, or (2) the student has a research project that is suitable for academic credit and that the student wishes to undertake under the aegis of a faculty member.",
+                    "prereq": "Prereq: Since course is individualized and changing, the course number may be repeated in a student's program without implying duplication. The total credits in anthropological research not to exceed six hours.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "11675?",
+                            "Type": "IND",
+                            "Enrolled": "3",
+                            "Class Max": "10",
+                            "Seats Available": "7",
+                            "Credit Hours": "1-6",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Mary Ann Powell"
+                        }
+                    }
+                },
+                "4920": {
+                    "title": "SEM IN ANTHROPOLOGICAL PROBS",
+                    "desc": "The seminar will cover a specific topic which will be announced each time the course is offered. The students will work with the instructor on projects designed to increase the student's depth of knowledge in specific areas.  Cross-listed with ANTH 8926.",
+                    "prereq": "Prereq: Permission of instructor.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14493?",
+                            "Type": "SEM",
+                            "Enrolled": "13",
+                            "Class Max": "25",
+                            "Seats Available": "12",
+                            "Credit Hours": "3",
+                            "Topic": "ENV & NATIVE PEOP GREAT PLAINS",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "3:00PM - 5:40PM",
+                            "Days": "T",
+                            "Location": "Allwine Hall 303",
+                            "Instructor": "Alan J Osborn"
+                        }
+                    }
+                },
+                "8926": {
+                    "title": "SEM IN ANTHROPOLOGICAL PROBS",
+                    "desc": "Seminar will cover a specific topic which will be announced each time the course is offered. The students will work with the instructor on projects designed to increase the student's depth of knowledge in specific areas.  Cross-listed with ANTH 4920.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14494?",
+                            "Type": "SEM",
+                            "Enrolled": "2",
+                            "Class Max": "10",
+                            "Seats Available": "8",
+                            "Credit Hours": "3",
+                            "Topic": "ENV & NATIVES OF GREAT PLAINS",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "3:00PM - 5:40PM",
+                            "Days": "T",
+                            "Location": "Allwine Hall 303",
+                            "Instructor": "Alan J Osborn"
+                        }
+                    }
+                }
+            },
+            "AE": {
+                "2250": {
+                    "title": "CONSTR GRAPHICS & DES PROCESS",
+                    "desc": "Introduction to typical computer-graphics and calculation applications used in a contemporary architectural engineering design office. Extensive use of CADD and electronic spreadsheet software to solve typical analysis and design problems. Fundamentals of descriptive geometry and two and three-dimensional drawing systems. Use of drawing conventions common to construction design. Basics of personal computer applications. Conceptual review of engineering design and technical problem solving processes.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14538?",
+                            "Type": "LEC",
+                            "Enrolled": "36",
+                            "Class Max": "37",
+                            "Seats Available": "1",
+                            "Credit Hours": "3",
+                            "Note": "AE, CONE, CIVE Students Only.",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "5:50PM - 7:05PM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 248",
+                            "Instructor": "Carla D Edwards"
+                        },
+                        "002": {
+                            "Class Number": "14539?",
+                            "Type": "LEC",
+                            "Enrolled": "39",
+                            "Class Max": "37",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Note": "AE, CONE, CIVE Students Only.",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "6:35PM - 7:50PM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 260",
+                            "Instructor": "Craig Ronald Thomas"
+                        },
+                        "003": {
+                            "Class Number": "14540?",
+                            "Type": "LEC",
+                            "Enrolled": "37",
+                            "Class Max": "37",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Students on Waitlist": "0",
+                            "Note": "AE, CONE, CIVE Students Only.",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 3:30PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 248",
+                            "Instructor": "Todd M Shackelford"
+                        }
+                    }
+                },
+                "2400": {
+                    "title": "BUILDING SYSTEMS",
+                    "desc": "Building systems as integral elements in architecture; building assemblies and materials; building system relationships; communication of ideas between design professionals, clients, contractors and manufacturers; construction drawings and specifications.",
+                    "prereq": "Prereq: AE  2250",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14541?",
+                            "Type": "LEC",
+                            "Enrolled": "27",
+                            "Class Max": "40",
+                            "Seats Available": "13",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "11:30AM - 12:45PM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Michael Patrick Hamilton"
+                        }
+                    }
+                },
+                "3070": {
+                    "title": "MECHANICS OF MATERIALS LAB",
+                    "desc": "Introduction to the behavior and testing of various building materials. The concepts of axial stress and strain, flexural stress and strain, beam deflections and column buckling.",
+                    "prereq": "Prereq: Prereq/coreq EMEC3250",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14542?",
+                            "Type": "LAB",
+                            "Enrolled": "18",
+                            "Class Max": "20",
+                            "Seats Available": "2",
+                            "Credit Hours": "1",
+                            "Note": "Alternating Weeks",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:30AM - 10:20AM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Alexander Charles Jording"
+                        },
+                        "002": {
+                            "Class Number": "14543?",
+                            "Type": "LAB",
+                            "Enrolled": "5",
+                            "Class Max": "20",
+                            "Seats Available": "15",
+                            "Credit Hours": "1",
+                            "Note": "Alternating Weeks",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:20AM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Alexander Charles Jording"
+                        },
+                        "003": {
+                            "Class Number": "14544?",
+                            "Type": "LAB",
+                            "Enrolled": "5",
+                            "Class Max": "20",
+                            "Seats Available": "15",
+                            "Credit Hours": "1",
+                            "Note": "Alternating Weeks",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "11:30AM - 12:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Alexander Charles Jording"
+                        }
+                    }
+                },
+                "3100": {
+                    "title": "HVAC FUNDAMENTALS",
+                    "desc": "Topics will include an introduction to the types of air conditioning systems; the properties of moist air, psychometric processes in HVAC equipment; indoor air quality; thermal comfort; heat transmission in buildings; solar radiation; and the calculation of building infiltration rates, space heating loads and space cooling loads.",
+                    "prereq": "Prereq: MENG2000",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14545?",
+                            "Type": "LEC",
+                            "Enrolled": "35",
+                            "Class Max": "40",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:30AM - 10:50AM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Josephine Lau"
+                        }
+                    }
+                },
+                "3220": {
+                    "title": "ELECTRICAL SYSTEMS FOR BLDGS I",
+                    "desc": "General introduction to the design of electrical power systems as they apply to buildings. Topics include electrical systems, and the basic engineering design methods.",
+                    "prereq": "Prereq: AE  2250 and ELEC2110",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14546?",
+                            "Type": "LEC",
+                            "Enrolled": "35",
+                            "Class Max": "40",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "8:30AM - 9:20AM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Michelle L Eble"
+                        }
+                    }
+                },
+                "4150": {
+                    "title": "HVAC DESIGN",
+                    "desc": "Develop and design the mechanical system for an actual building, from the programming phase to the final construction documents. (Is the first option-specific mechanical systems design course and is to be taken during the forth year of B.S.A.E. program.)",
+                    "prereq": "Prereq: AE  4120, not open to nondegree students",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14547?",
+                            "Type": "LEC",
+                            "Enrolled": "10",
+                            "Class Max": "30",
+                            "Seats Available": "20",
+                            "Credit Hours": "4",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "4:00PM - 5:15PM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 260",
+                            "Instructor": "Joe Thomas Hazel"
+                        }
+                    }
+                },
+                "4250": {
+                    "title": "LIGHTING DESIGN",
+                    "desc": "Advanced design and analysis of lighting systems.  Application of the lighting design process for advanced interior applications such as multimedia facilities, and outdoor applications such as sports lighting. (Requires the initiation of the design process, proceeding in a self-directed manner through intermediate steps, and producing professional lighting design solutions.)",
+                    "prereq": "Prereq: AE  4200, not open to nondegree students",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14548?",
+                            "Type": "LEC",
+                            "Enrolled": "10",
+                            "Class Max": "30",
+                            "Seats Available": "20",
+                            "Credit Hours": "4",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "4:00PM - 5:15PM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Rodrigo E Manriquez"
+                        }
+                    }
+                },
+                "4300": {
+                    "title": "ADVANCED NOISE CONTROL",
+                    "desc": "Characterization of acoustic sources; use and measurement of sound and intensity; sound-structure interaction; acoutic enclosures and barriers; muffling devices; vibration control; and active noise control. (Cross-listed with AE  8306)",
+                    "prereq": "Prereq: AE  3300",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14549?",
+                            "Type": "LEC",
+                            "Enrolled": "8",
+                            "Class Max": "30",
+                            "Seats Available": "22",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:45PM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Siu Kit Lau"
+                        }
+                    }
+                },
+                "8010": {
+                    "title": "GRADUATE DESIGN PROJECT I",
+                    "desc": "First of two-course capstone design project for the MAE degree. Students will perform a detailed investigation in their MAE Option Area culminating in a professionally-written report and oral presentation that demonstrates both mastery of the subject and a high level of writing and oral communication skills.",
+                    "prereq": "Prereq: AE  4020 or AE  4010",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14030?",
+                            "Type": "IND",
+                            "Enrolled": "3",
+                            "Class Max": "5",
+                            "Seats Available": "2",
+                            "Credit Hours": "3",
+                            "Topic": "LIGHTING",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 252",
+                            "Instructor": "Dale K Tiller"
+                        },
+                        "002": {
+                            "Class Number": "14031?",
+                            "Type": "IND",
+                            "Enrolled": "2",
+                            "Class Max": "5",
+                            "Seats Available": "3",
+                            "Credit Hours": "3",
+                            "Topic": "MECHANICAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Dale K Tiller"
+                        },
+                        "003": {
+                            "Class Number": "14032?",
+                            "Type": "IND",
+                            "Enrolled": "2",
+                            "Class Max": "5",
+                            "Seats Available": "3",
+                            "Credit Hours": "3",
+                            "Topic": "STRUCTURAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Kenneth Gail Merkel"
+                        },
+                        "004": {
+                            "Class Number": "33742?",
+                            "Type": "IND",
+                            "Enrolled": "1",
+                            "Class Max": "15",
+                            "Seats Available": "14",
+                            "Credit Hours": "3",
+                            "Topic": "ELECTRICAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Dale K Tiller"
+                        },
+                        "005": {
+                            "Class Number": "33743?",
+                            "Type": "IND",
+                            "Enrolled": "1",
+                            "Class Max": "15",
+                            "Seats Available": "14",
+                            "Credit Hours": "3",
+                            "Topic": "ACOUSTICS",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Kenneth Gail Merkel"
+                        }
+                    }
+                },
+                "8020": {
+                    "title": "GRADUATE DESIGN PROJECT II",
+                    "desc": "Second of two-course capstone design project for the MAE degree. Students will complete a detailed investigation in their MAE Option Area culminating in a professionally-written report and oral presentation that demonstrates both mastery of the subject and a high level of writing and oral communications skills.",
+                    "prereq": "Prereq: AE  8010",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14033?",
+                            "Type": "IND",
+                            "Enrolled": "7",
+                            "Class Max": "15",
+                            "Seats Available": "8",
+                            "Credit Hours": "2",
+                            "Topic": "LIGHTING",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 252",
+                            "Instructor": "Dale K Tiller"
+                        },
+                        "002": {
+                            "Class Number": "14034?",
+                            "Type": "IND",
+                            "Enrolled": "7",
+                            "Class Max": "15",
+                            "Seats Available": "8",
+                            "Credit Hours": "2",
+                            "Topic": "MECHANICAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Dale K Tiller"
+                        },
+                        "003": {
+                            "Class Number": "14035?",
+                            "Type": "IND",
+                            "Enrolled": "14",
+                            "Class Max": "30",
+                            "Seats Available": "16",
+                            "Credit Hours": "2",
+                            "Topic": "STRUCTURAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Kenneth Gail Merkel"
+                        },
+                        "004": {
+                            "Class Number": "33744?",
+                            "Type": "IND",
+                            "Enrolled": "0",
+                            "Class Max": "15",
+                            "Seats Available": "15",
+                            "Credit Hours": "2",
+                            "Topic": "ELECTRICAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Dale K Tiller"
+                        },
+                        "005": {
+                            "Class Number": "33745?",
+                            "Type": "IND",
+                            "Enrolled": "2",
+                            "Class Max": "15",
+                            "Seats Available": "13",
+                            "Credit Hours": "2",
+                            "Topic": "ACOUSTICS",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:20PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Kenneth Gail Merkel"
+                        }
+                    }
+                },
+                "8070": {
+                    "title": "ARCH ENGR PROFESSIONAL PRAC II",
+                    "desc": "Continuation of investigation of issues related to the integration of building design processes with professional architectural engineering design practice.  Building design specifications, estimating, bidding, building construction contract negotiations, building design project management, project team personnel management, project risk, and key regulatory measures.",
+                    "prereq": "Prereq: ISMG2060 and AE  8060",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14550?",
+                            "Type": "LEC",
+                            "Enrolled": "34",
+                            "Class Max": "40",
+                            "Seats Available": "6",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00PM - 1:15PM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 359",
+                            "Instructor": "Kenneth Gail Merkel"
+                        }
+                    }
+                },
+                "8080": {
+                    "title": "APPL EXPRMTL DSGN & STAT ANAL",
+                    "desc": "Overview of advanced experimental design methods and statistical analysis techniques.  Application of these to the planning, execution, analysis, and description of research in architectural engineering.",
+                    "prereq": "Prereq: STAT3800",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14551?",
+                            "Type": "LEC",
+                            "Enrolled": "29",
+                            "Class Max": "45",
+                            "Seats Available": "16",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00PM - 1:15PM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 248",
+                            "Instructor": "Dale K Tiller"
+                        }
+                    }
+                },
+                "8090": {
+                    "title": "INTERDISCIPLNRY TEAM DSGN PROJ",
+                    "desc": "Develop and design the electrical, lighting, mechanical, and structural systems for a building, from programming through construction documents, as an interdisciplinary team effort.",
+                    "prereq": "Prereq: (AE  4200 or AE  8206 or AE  4120 or CIVE441), not open to nondegree students",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14552?",
+                            "Type": "LEC",
+                            "Enrolled": "37",
+                            "Class Max": "48",
+                            "Seats Available": "11",
+                            "Credit Hours": "4",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "2:30PM - 5:00PM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 252",
+                            "Instructor": "Ece Erdogmus"
+                        }
+                    }
+                },
+                "8120": {
+                    "title": "BUILDING CONTROL & AUTO SYS",
+                    "desc": "Fundamental concepts of building control theory and automation. Building control: state-variable plant and closed-loop system representation, time and frequency response, stability, root-locus methods and design of building control systems. Automation: thermostats, dampers, valves, direct digital control, control of air handling units, terminal units, primary building systems, supervisory control and system optimization, communication systems, BACnet, and DDC system design and implementation.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14553?",
+                            "Type": "LEC",
+                            "Enrolled": "23",
+                            "Class Max": "20",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "2:30PM - 3:45PM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 248",
+                            "Instructor": "Tian Tian"
+                        }
+                    }
+                },
+                "8220": {
+                    "title": "ELECTRICAL SYS FOR BLDGS II",
+                    "desc": "Power systems analysis and design, integration of electrical system components into functional, safe, and reliable power distribution systems for commercial and industrial facilities. Per Unit Analysis, Fault Analysis, Power Quality, Grounding, Overcurrent Protection Coordination, Complete power system design.",
+                    "prereq": "Prereq: AE  3220",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14554?",
+                            "Type": "LEC",
+                            "Enrolled": "20",
+                            "Class Max": "20",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Topic": "Lecture",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:45AM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Mahmoud Alahmad"
+                        },
+                        "002": {
+                            "Class Number": "14555?",
+                            "Type": "LAB",
+                            "Enrolled": "20",
+                            "Class Max": "20",
+                            "Seats Available": "0",
+                            "Note": "Students must also register for AE 8220-002",
+                            "Topic": "Laboratory",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "7:30AM - 9:20AM",
+                            "Days": "T",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Mahmoud Alahmad"
+                        }
+                    }
+                },
+                "8306": {
+                    "title": "ADVANCED NOISE CONTROL",
+                    "desc": "Characterization of acoustic sources; use and measurement of sound power and intensity; sound-structure interaction; acoustic enclosures and barriers; muffling devices; vibration control; and active noise control. (Cross-listed with AE  4300)",
+                    "prereq": "Prereq: AE  3200",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14557?",
+                            "Type": "LEC",
+                            "Enrolled": "3",
+                            "Class Max": "10",
+                            "Seats Available": "7",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "1:30PM - 2:45PM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 130",
+                            "Instructor": "Siu Kit Lau"
+                        }
+                    }
+                },
+                "8920": {
+                    "title": "INDIVIDUAL INSTRUCTION IN AE",
+                    "desc": "Individual instruction in Architectural Engineering at the graduate level in a selected area, under the supervision and guidance of an Architectural Engineering faculty member.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14558?",
+                            "Type": "LEC",
+                            "Enrolled": "1",
+                            "Class Max": "5",
+                            "Seats Available": "4",
+                            "Credit Hours": "1-3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Lily May Wang"
+                        },
+                        "002": {
+                            "Class Number": "33444?",
+                            "Type": "LEC",
+                            "Enrolled": "1",
+                            "Class Max": "1",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Topic": "AIR BARRIER INITIATIVE",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Avery Don Schwer"
+                        }
+                    }
+                },
+                "8940": {
+                    "title": "SPECIAL TOPICS IN AE",
+                    "desc": "Special topics in Architectural Engineering at the graduate level that are not yet covered in other courses in the Architectural Engineering curriculum.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14036?",
+                            "Type": "LEC",
+                            "Enrolled": "16",
+                            "Class Max": "10",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Note": "Permission needed",
+                            "Topic": "MASONRY & TIMBER DESIGN",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 157",
+                            "Instructor": "Ece Erdogmus"
+                        },
+                        "002": {
+                            "Class Number": "14679?",
+                            "Type": "LEC",
+                            "Enrolled": "8",
+                            "Class Max": "5",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Topic": "AEI STUDENT COMPETITION",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00AM - 12:00AM",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Lily May Wang"
+                        },
+                        "003": {
+                            "Class Number": "14782?",
+                            "Type": "LEC",
+                            "Enrolled": "0",
+                            "Class Max": "10",
+                            "Seats Available": "10",
+                            "Credit Hours": "3",
+                            "Topic": "HVAC & ELECTRICAL",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "12:00AM - 12:00AM",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Lily May Wang"
+                        },
+                        "006": {
+                            "Class Number": "32415?",
+                            "Type": "LEC",
+                            "Enrolled": "5",
+                            "Class Max": "10",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Topic": "ASA COMPETITION",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "10:30AM - 11:20AM",
+                            "Days": "F",
+                            "Location": "Peter Kiewit Institute 256",
+                            "Instructor": "Lily May Wang"
+                        },
+                        "007": {
+                            "Class Number": "33709?",
+                            "Type": "LEC",
+                            "Enrolled": "1",
+                            "Class Max": "1",
+                            "Seats Available": "0",
+                            "Credit Hours": "3",
+                            "Topic": "WASTE-TO-RENEWABLES SYS DEV",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Haorong Li"
+                        }
+                    }
+                },
+                "8990": {
+                    "title": "MASTER'S THESIS",
+                    "desc": "Masters Thesis.",
+                    "prereq": "Prereq: Admission to Architectural Engineering masters degree program and permission of major advisor. Not open to nondegree students.",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14559?",
+                            "Type": "LEC",
+                            "Enrolled": "10",
+                            "Class Max": "10",
+                            "Seats Available": "0",
+                            "Credit Hours": "1-10",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Lily May Wang"
+                        }
+                    }
+                },
+                "9160": {
+                    "title": "BLDG ENERGY SYS MODELING",
+                    "desc": "Modeling, control and optimization of the secondary building energy systems; building envelope, room comfort zones, air handling units, cooling and heating water loops.",
+                    "prereq": "Prereq: AE  4100 or AE  8120",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14560?",
+                            "Type": "LEC",
+                            "Enrolled": "4",
+                            "Class Max": "15",
+                            "Seats Available": "11",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "3:00PM - 5:40PM",
+                            "Days": "M",
+                            "Location": "Peter Kiewit Institute 260",
+                            "Instructor": "Haorong Li"
+                        }
+                    }
+                },
+                "9180": {
+                    "title": "CFD MODELING OF INDOOR ENVIR",
+                    "desc": "Application of computational fluid dynamics software to modeling of indoor environments. Topics include turbulence modeling, boundary conditions, natural and forced convection flows, species transport, and fire modeling.",
+                    "prereq": "Prereq: AE  4110 or AE  8116",
+                    "sections": {
+                        "001": {
+                            "Class Number": "32416?",
+                            "Type": "LEC",
+                            "Enrolled": "2",
+                            "Class Max": "10",
+                            "Seats Available": "8",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "TR",
+                            "Location": "Peter Kiewit Institute 260",
+                            "Instructor": "Josephine Lau"
+                        }
+                    }
+                },
+                "9300": {
+                    "title": "CURRNT TPCS IN ARCH ACOUSTICS",
+                    "desc": "A review of current topics in architectural acoustics. Subjects may include objective versus subjective measures in performance spaces, electronic enhancement of rooms, advanced computational modeling techniques, and auralization.",
+                    "prereq": "Prereq: AE  8330",
+                    "sections": {
+                        "001": {
+                            "Class Number": "32417?",
+                            "Type": "LEC",
+                            "Enrolled": "5",
+                            "Class Max": "10",
+                            "Seats Available": "5",
+                            "Credit Hours": "3",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "9:00AM - 10:15AM",
+                            "Days": "MW",
+                            "Location": "Peter Kiewit Institute 270",
+                            "Instructor": "Siu Kit Lau"
+                        }
+                    }
+                },
+                "9970": {
+                    "title": "RESEARCH OTHER THAN THESIS",
+                    "desc": "Supervised non-thesis research and independent study.",
+                    "prereq": "-",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14561?",
+                            "Type": "LEC",
+                            "Enrolled": "6",
+                            "Class Max": "10",
+                            "Seats Available": "4",
+                            "Credit Hours": "1-6",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Lily May Wang"
+                        }
+                    }
+                },
+                "9990": {
+                    "title": "DOCTORAL DISSERTATION",
+                    "desc": "(1-24 credits, max 55)",
+                    "prereq": "Prereq: Admission to doctoral degree program and permission of supervisory committee chair",
+                    "sections": {
+                        "001": {
+                            "Class Number": "14562?",
+                            "Type": "DSR",
+                            "Enrolled": "10",
+                            "Class Max": "25",
+                            "Seats Available": "15",
+                            "Credit Hours": "1-24",
+                            "Date": "Jan 09, 2012 - May 04, 2012",
+                            "Time": "TBA",
+                            "Days": "TBA",
+                            "Location": "To Be Announced",
+                            "Instructor": "Lily May Wang"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
