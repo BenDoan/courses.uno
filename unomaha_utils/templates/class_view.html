@@ -10,7 +10,7 @@
     </h4>
     <p>{{ course['desc'] }}</p>
     <p>{{ course['prereq'] }}</p>
-    {% for section, section_info in course['sections'].items()[::-1] %}
+    {% for section, section_info in course['sections'].items()|reverse %}
     <h4>{{ section }}</h4>
     <table class="table table-bordered table-condensed table-striped">
         {% for key, val in section_info|dictsort %}

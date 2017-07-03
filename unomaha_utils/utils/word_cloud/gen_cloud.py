@@ -8,10 +8,7 @@ import random
 import re
 import sys
 
-try:
-    from StringIO import StringIO
-except ImportError:
-    from io import StringIO
+from io import BytesIO
 
 from os import path
 
@@ -109,7 +106,7 @@ def plot_cloud(text):
     fig = plt.gcf()
     fig.set_size_inches(18.5, 10.5)
     canvas = FigureCanvas(fig)
-    png_output = StringIO.StringIO()
+    png_output = BytesIO()
     canvas.print_png(png_output)
 
     return png_output.getvalue()

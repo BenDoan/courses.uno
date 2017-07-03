@@ -36,6 +36,8 @@ def course_search_view():
     if not courses:
         abort(404)
 
+    for _, course in courses.items():
+        reversed(course['sections'].items())
     return render_template("class_view.html", college_name=college_key, courses=courses, term_key=term_key)
 
 @classes.route('/history')

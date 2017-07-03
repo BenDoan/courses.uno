@@ -72,7 +72,7 @@ def teacher_wordcloud():
 def get_cached_wc(teacher_name):
     fname = path.join(WORD_CLOUD_CACHE, teacher_name+".png")
     if path.isfile(fname):
-        with open(fname) as f:
+        with open(fname, 'rb') as f:
             return f.read()
 
 def cache_wc(teacher_name, png):
