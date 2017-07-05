@@ -36,5 +36,12 @@ class TestUnomahaUtils(unittest.TestCase):
 
         self.assertIn(b"PRINCIPLES OF ACCOUNTING I", result.data)
 
+    def test_teacher_wordcloud(self):
+        result = self.app.get('/teachers/cloud.png?name=nelson')
+        self.assertEqual(result.status_code, 200)
+
+        self.assertEqual(result.headers.get('Content-Type'), 'image/png')
+
+
 if __name__ == '__main__':
   unittest.main()

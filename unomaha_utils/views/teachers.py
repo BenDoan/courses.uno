@@ -20,7 +20,7 @@ from utils.word_cloud.gen_cloud import get_all_words, plot_cloud, clean_text
 
 SCRIPT_DIR = path.dirname(path.realpath(__file__))
 
-WORD_CLOUD_CACHE = path.join(SCRIPT_DIR, "..", "data", "UU_WORDCLOUDS")
+WORDCLOUD_CACHE_DIR = "UU_WORDCLOUDS"
 
 teachers = Blueprint('teachers', __name__,
                         template_folder='templates')
@@ -77,12 +77,14 @@ def teacher_wordcloud():
     return response
 
 def get_cached_wc(teacher_name):
+    WORD_CLOUD_CACHE = path.join(current_app.DATA_DIR, WORDCLOUD_CACHE_DIR)
     fname = path.join(WORD_CLOUD_CACHE, teacher_name+".png")
     if path.isfile(fname):
         with open(fname, 'rb') as f:
             return f.read()
 
 def cache_wc(teacher_name, png):
+    WORD_CLOUD_CACHE = path.join(current_app.DATA_DIR, WORDCLOUD_CACHE_DIR)
     if not path.isdir(WORD_CLOUD_CACHE):
         os.mkdir(WORD_CLOUD_CACHE)
 

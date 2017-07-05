@@ -22,8 +22,7 @@ SCRIPT_PATH = path.dirname(path.realpath(__file__))
 DATA_DIR = path.join(SCRIPT_PATH, "data")
 TEST_DATA_DIR = path.join(SCRIPT_PATH, "test_data")
 
-TERM_DATA_PATH = path.join(DATA_DIR, "all_courses.json")
-TEST_TERM_DATA_PATH = path.join(TEST_DATA_DIR, "all_courses.json")
+ALL_COURSES_FNAME = "all_courses.json"
 
 wlog = logging.getLogger('werkzeug')
 wlog.setLevel(logging.ERROR)
@@ -47,9 +46,10 @@ def create_app():
     def get_term_data():
         if current_app.term_data is None:
             if current_app.testing:
-                data_path = TEST_TERM_DATA_PATH
+                current_app.DATA_DIR = TEST_DATA_DIR
             else:
-                data_path = TERM_DATA_PATH
+                current_app.DATA_DIR = DATA_DIR
+            data_path = path.join(current_app.DATA_DIR, ALL_COURSES_FNAME)
 
             if not path.exists(data_path):
                 print("Couldn't find term data at {}, exiting".format(data_path))
@@ -67,8 +67,6 @@ def create_app():
 
         return current_app.term_data
     app.get_term_data = get_term_data
-
-    app.DATA_DIR = DATA_DIR
 
     @app.before_request
     def before_request():
