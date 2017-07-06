@@ -59,22 +59,30 @@ def teacher_search_view():
 @teachers.route('/cloud.png')
 def teacher_wordcloud():
     teacher_name = request.args.get('name')
+    no_cache = request.args.get('no-cache', False)
     current_app.logger.info("Getting word cloud for %s", teacher_name)
 
     if not teacher_name:
         abort(400)
 
-    cached_png = get_cached_wc(teacher_name)
-    if not cached_png:
-        words = get_all_words(current_app.DATA_DIR, teacher_name)
-        png = plot_cloud(clean_text(words))
-        cache_wc(teacher_name, png)
+    if no_cache:
+        png = gen_wc(teacher_name)
     else:
-        png = cached_png
+        cached_png = get_cached_wc(teacher_name)
+        if cached_png:
+            png = cached_png
+        else:
+            png = gen_wc(teacher_name)
 
     response = make_response(png)
     response.headers['Content-Type'] = 'image/png'
     return response
+
+def gen_wc(teacher_name):
+    words = get_all_words(current_app.DATA_DIR, teacher_name)
+    png = plot_cloud(clean_text(words))
+    cache_wc(teacher_name, png)
+    return png
 
 def get_cached_wc(teacher_name):
     WORD_CLOUD_CACHE = path.join(current_app.DATA_DIR, WORDCLOUD_CACHE_DIR)

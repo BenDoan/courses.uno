@@ -30,14 +30,28 @@ class TestUnomahaUtils(unittest.TestCase):
         self.assertIn(b"Peter Kiewit Institute 260", result.data)
         self.assertIn(b"Spring 2012", result.data)
 
+    def test_missing_room(self):
+        url = '/rooms/view?term=1121&building=Peter+Kiewit+Institute&room_number=20060'
+        result = self.app.get(url, follow_redirects=True)
+        self.assertEqual(result.status_code, 404)
+
+        self.assertIn(b"Could not be found", result.data)
+
     def test_teacher_view(self):
         result = self.app.get('/teachers/view?lastname=poss')
         self.assertEqual(result.status_code, 200)
 
         self.assertIn(b"PRINCIPLES OF ACCOUNTING I", result.data)
 
+    def test_missing_teacher(self):
+        result = self.app.get('/teachers/view?lastname=asdasdd', follow_redirects=True)
+        self.assertEqual(result.status_code, 404)
+
+        self.assertIn(b"Could not be found", result.data)
+
+
     def test_teacher_wordcloud(self):
-        result = self.app.get('/teachers/cloud.png?name=nelson')
+        result = self.app.get('/teachers/cloud.png?name=nelson&no-cache=1')
         self.assertEqual(result.status_code, 200)
 
         self.assertEqual(result.headers.get('Content-Type'), 'image/png')
