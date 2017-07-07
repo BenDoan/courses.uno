@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+<h2>Course search</h2>
 <form action="/classes/view" method="GET">
     <div class="form-group">
         <label for="term">Term</label>
@@ -15,6 +16,18 @@
             <option value="{{ college_key }}">{{ college_key }}</option>
             {% endfor %}
         </select>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+<h2>Course history search</h2>
+<form action="/classes/history" method="GET">
+    <div class="form-group">
+        <label for="college">College</label>
+        <input type="text" name="college" placeholder="e.g. CSCI" class="form-control" />
+
+        <label for="course">Course Number</label>
+        <input type-"number" name="course" placeholder="e.g. 1620" class="form-control" />
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
 </form>

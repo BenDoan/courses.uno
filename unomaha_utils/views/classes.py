@@ -58,6 +58,11 @@ def course_history():
     course_key = request.args.get("course")
     current_app.logger.info("Searching for history of %s%s", college_key, course_key)
 
+    if not college_key or not course_key:
+        abort(404)
+
+    college_key = college_key.upper()
+
     course_instances = get_course_instances(term_data, college_key, course_key)
 
     if len(course_instances) < 1:
