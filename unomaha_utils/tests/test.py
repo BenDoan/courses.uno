@@ -49,7 +49,6 @@ class TestUnomahaUtils(unittest.TestCase):
 
         self.assertIn(b"Could not be found", result.data)
 
-
     def test_teacher_wordcloud(self):
         result = self.app.get('/teachers/cloud.png?name=nelson&no-cache=1')
         self.assertEqual(result.status_code, 200)
