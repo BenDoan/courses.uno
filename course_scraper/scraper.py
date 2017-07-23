@@ -21,11 +21,12 @@ import time
 
 from collections import OrderedDict
 from multiprocessing import Pool, cpu_count
+from os import path
 
 import requests
 
-from docopt import docopt
 from BeautifulSoup import BeautifulSoup
+from docopt import docopt
 
 BASE_URL = "http://www.unomaha.edu/registrar/students/before-you-enroll/class-search/"
 
@@ -35,8 +36,8 @@ def get_college_data((college, term)):
     """Returns a dictionary containing all classes within college and term"""
     logging.info("Processing college {}".format(college))
 
-    time.sleep(1)
-    page = requests.get("{}?term={}&session=&subject={}&catalog_nbr=&career=&instructor=&class_start_time=&class_end_time=&location=&special=&instruction_mode=".format(BASE_URL, term,  college))
+    time.sleep(.5)
+    page = requests.get("{}?term={}&session=&subject={}&catalog_nbr=&career=&instructor=&class_start_time=&class_end_time=&location=&special=&instruction_mode=".format(BASE_URL, term, college))
     soup = BeautifulSoup(page.text)
 
     if len(soup.findAll("div", {'class': 'dotted-bottom'})) == 0:
@@ -149,9 +150,9 @@ def _main():
     term_data = get_full_term_listing(college)
 
     # output class data as json
-    json_data = json.dumps(term_data, sort_keys=False, indent=4, separators=(',', ': '))
+    json_data = json.dumps(term_data)
     if args['--output'] is not None:
-        with open(args['--output'], 'w') as f:
+        with open(path.abspath(args['--output']), 'w') as f:
             f.write(json_data)
     else:
         print json_data

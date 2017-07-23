@@ -7,7 +7,6 @@ RUN pip install -r /requirements.txt
 
 COPY ./unomaha_utils/ /unomaha_utils
 
-VOLUME /unomaha_utils/unomaha-utilities/data
 EXPOSE 5566
 
 WORKDIR /unomaha_utils
