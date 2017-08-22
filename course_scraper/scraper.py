@@ -112,11 +112,21 @@ def get_full_term_listing(college=None):
         results = pool.map(get_college_data, zip(colleges, itertools.repeat(term)))
         term_data[term] = OrderedDict(zip(colleges, results))
 
+    stats = {
+        "num_terms": len(term_data)
+    }
+
+    for term, colleges in term_data.items():
+        stats[term] = {
+            "num_colleges": len(colleges)
+        }
+
     out_dict = {
         "meta" : {
             "time": int(datetime.datetime.utcnow().strftime("%s")),
             "time_str": str(datetime.datetime.utcnow()),
-            "url": BASE_URL
+            "url": BASE_URL,
+            "stats": stats,
         },
         "term_data": term_data
     }

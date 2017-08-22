@@ -10,15 +10,16 @@
     </h4>
     <p>{{ course['desc'] }}</p>
     <p>{{ course['prereq'] }}</p>
-    {% for section, section_info in course['sections'].items()|reverse %}
-    <h4>{{ section }}</h4>
+    {% for section, info in course['sections']|dictsort %}
+    <h4>{{ section }} - {{ info['Instructor'] }} - {{ info['Enrolled'] }}/{{ info['Class Max'] }}</h4>
     <table class="table table-bordered table-condensed table-striped">
-        {% for key, val in section_info|dictsort %}
-        <tr>
-            <td>{{ key }}</td>
-            <td>{{ val }}</td>
-        </tr>
-        {% endfor %}
+        <tr><td>Date</td><td>{{ info['Date'] }}</td></tr>
+        <tr><td>Time</td><td>{{ info['Time'] }}</td></tr>
+        <tr><td>Days</td><td>{{ info['Days'] }}</td></tr>
+        <tr><td>Location</td><td>{{ info['Location'] }}</td></tr>
+        {% if 'Note' in info %}
+            <tr><td>Note</td><td>{{ info['Note'] }}</td></tr>
+        {% endif %}
     </table>
     {% endfor %}
 </div>
