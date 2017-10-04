@@ -31,7 +31,7 @@ app = Flask(__name__)
 
 def create_app():
     app = Flask(__name__)
-    app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 86400 # 1 day
+    app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 7776000 # 3 months
 
     app.logger.setLevel(logging.INFO)
 

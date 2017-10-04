@@ -1,6 +1,6 @@
 FROM base/archlinux
 
-RUN pacman -Syyu && pacman -S --noconfirm base-devel python python-pip
+RUN pacman -Syyu --noconfirm && pacman -S --noconfirm base-devel python python-pip
 
 COPY ./unomaha_utils/requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt

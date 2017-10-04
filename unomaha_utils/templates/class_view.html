@@ -11,7 +11,11 @@
     <p>{{ course['desc'] }}</p>
     <p>{{ course['prereq'] }}</p>
     {% for section, info in course['sections']|dictsort %}
-    <h4>{{ section }} - {{ info['Instructor'] }} - {{ info['Enrolled'] }}/{{ info['Class Max'] }}</h4>
+    <h4>
+        {{ section }} -
+        {{ info['Instructor'] }} {% if 'Instructor' in info %}-{% endif %}
+        {{ info['Enrolled'] }}/{{ info['Class Max'] }}
+    </h4>
     <table class="table table-bordered table-condensed table-striped">
         <tr><td>Date</td><td>{{ info['Date'] }}</td></tr>
         <tr><td>Time</td><td>{{ info['Time'] }}</td></tr>
