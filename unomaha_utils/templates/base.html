@@ -11,8 +11,6 @@
         <link href="{{ url_for('main.send_static', path='css/main.css') }}" rel="stylesheet">
 
         <title>UNO Utilities</title>
-
-        <!--<script src="{{ url_for('main.send_static', path='dist/main.min.js') }}"></script>-->
     </head>
 
     <body>
@@ -58,10 +56,8 @@
         </div>
         <div class="container" id="footer">
             <footer>
-                <span>&copy; 2017 <a href="http://www.bendoan.me">Ben Doan</a></span>
                 <span class="pull-right">
                     data last updated: <span title="{{ courses_meta['time_str'] }}">{{ last_updated }}</span> |
-                    <a href="http://github.com/bendoan/unomaha_utils">source</a> |
                     <a href="mailto:feedback@flainted.com">feedback@flainted.com</a>
                 </span>
             </footer>
