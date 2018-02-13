@@ -7,6 +7,8 @@ RUN pip install -r /requirements.txt
 
 COPY ./unomaha_utils/ /unomaha_utils
 
+COPY ./tracking.html /unomaha_utils/templates/tracking.html
+
 EXPOSE 5566
 
 WORKDIR /unomaha_utils
