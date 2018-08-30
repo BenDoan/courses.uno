@@ -94,10 +94,8 @@ def clean_text(words):
     return " ".join(final_words)
 
 def plot_cloud(text):
-    # mask, max_words = np.array(Image.open(path.join(d, "uno_mask.png"))), 200
-    mask, max_words = np.array(Image.open(path.join(d, "mav_mask.png"))), 300
     stopwords = STOPWORDS.union(common_words)
-    wordcloud = WordCloud(background_color="white", width=2400, height=2400, mask=mask, stopwords=stopwords, max_words=max_words).generate(text)#.recolor(color_func=grey_color_func, random_state=3)
+    wordcloud = WordCloud(background_color="white", width=2400, height=1200, stopwords=stopwords, max_words=300).generate(text)#.recolor(color_func=grey_color_func, random_state=3)
 
     # Open a plot of the generated image.
     plt.imshow(wordcloud, interpolation='bilinear')
