@@ -3,8 +3,8 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 function req(){
-    code=$(curl -sI "http://localhost:5566/$1" | grep HTTP/1.1 | awk '{ print $2 }')
-    [ "$code" -eq "200" ]
+    code=$(curl -sI "http://localhost:5566/$1" | grep HTTP | awk '{ print $2 }')
+    [[ "$code" -eq "200" ]]
 }
 
 function error(){
