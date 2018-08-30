@@ -50,6 +50,8 @@ def get_teacher_reviews(reviews, review_type, teacher_name):
         if teacher_name.lower() in name.lower():
             possible_names.append(name)
 
+    print("Search name: {}, possible names: {}".format(teacher_name, ", ".join(possible_names)))
+
     if len(possible_names) == 0:
         print("Found no matching {} reviews".format(review_type.name))
     elif len(possible_names) > 1:
@@ -92,7 +94,6 @@ def clean_text(words):
     return " ".join(final_words)
 
 def plot_cloud(text):
-
     # mask, max_words = np.array(Image.open(path.join(d, "uno_mask.png"))), 200
     mask, max_words = np.array(Image.open(path.join(d, "mav_mask.png"))), 300
     stopwords = STOPWORDS.union(common_words)
@@ -150,6 +151,7 @@ def _main():
     teacher_name = " ".join(sys.argv[2:])
 
     words = get_all_words(".", teacher_name)
+
     png = plot_cloud(clean_text(words))
 
     with open(fname, "wb") as f:

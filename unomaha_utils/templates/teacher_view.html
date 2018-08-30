@@ -31,5 +31,7 @@
         {% endfor %}
         </table>
     {% endfor %}
+{% else %}
+        <p>Found no courses for {{ name }}</p>
 {% endfor %}
 {% endblock %}

@@ -50,9 +50,6 @@ def teacher_search_view():
 
     matching_courses = get_teacher_info(term_data, teacher_last_name)
 
-    if not matching_courses:
-        abort(404)
-
     return render_template("teacher_view.html", matching_courses=matching_courses, name=teacher_last_name)
 
 
@@ -74,12 +71,18 @@ def teacher_wordcloud():
         else:
             png = gen_wc(teacher_name)
 
+    if png is None:
+        return ('', 204)
+
     response = make_response(png)
     response.headers['Content-Type'] = 'image/png'
     return response
 
 def gen_wc(teacher_name):
     words = get_all_words(current_app.DATA_DIR, teacher_name)
+    if len(words) == 0:
+        return None
+
     png = plot_cloud(clean_text(words))
     cache_wc(teacher_name, png)
     return png
