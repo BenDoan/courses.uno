@@ -36,7 +36,7 @@ def get_college_data((college, term)):
     """Returns a dictionary containing all classes within college and term"""
     logging.info("Processing college {}".format(college))
 
-    time.sleep(.5)
+    time.sleep(1)
     page = requests.get("{}?term={}&session=&subject={}&catalog_nbr=&career=&instructor=&class_start_time=&class_end_time=&location=&special=&instruction_mode=".format(BASE_URL, term, college))
     soup = BeautifulSoup(page.text)
 
