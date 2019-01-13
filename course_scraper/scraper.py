@@ -28,7 +28,7 @@ import requests
 from BeautifulSoup import BeautifulSoup
 from docopt import docopt
 
-BASE_URL = "http://www.unomaha.edu/registrar/students/before-you-enroll/class-search/"
+BASE_URL = "https://www.unomaha.edu/registrar/students/before-you-enroll/class-search/"
 
 terms = [1158]
 
