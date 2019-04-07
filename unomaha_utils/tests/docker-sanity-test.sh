@@ -9,6 +9,7 @@ function req(){
 
 function error(){
     echo "Error: failed to request $1" 1>&2
+    exit 1
 }
 cd $SCRIPT_DIR/..
 
